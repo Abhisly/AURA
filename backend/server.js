@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Direct connection string to Supabase postgres
 const pool = new Pool({
-  connectionString: 'postgresql://postgres:SkillgapAura@db.gkugyghzjnhaapycdgho.supabase.co:5432/postgres',
+  connectionString: 'postgresql://postgres:SkillgapAura@db.gkugyghzjnhaapycdgho.supabase.co:6543/postgres',
   ssl: { rejectUnauthorized: false }
 });
 
@@ -47,7 +47,7 @@ app.post('/api/auth/register', async (req, res) => {
     res.json({ user: result.rows[0] });
   } catch (error) {
     console.error('Registration Error:', error);
-    res.status(500).json({ error: 'Database error during registration.' });
+    res.status(500).json({ error: error.message || 'Database error during registration.' });
   }
 });
 
@@ -81,7 +81,7 @@ app.post('/api/auth/login', async (req, res) => {
     });
   } catch (error) {
     console.error('Login Error:', error);
-    res.status(500).json({ error: 'Database error during login.' });
+    res.status(500).json({ error: error.message || 'Database error during login.' });
   }
 });
 
