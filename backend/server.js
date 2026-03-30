@@ -110,6 +110,10 @@ app.post('/api/users/backup', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`🚀 Backend API running on http://localhost:${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Backend API running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;
