@@ -1,0 +1,2667 @@
+{
+  "domains": [
+    {
+      "id": "domain_pl",
+      "name": "Programming Languages",
+      "description": "Core programming language fundamentals including syntax, memory management, OOP, and language-specific paradigms.",
+      "icon": "Code2",
+      "level": "beginner"
+    },
+    {
+      "id": "domain_dsa",
+      "name": "Data Structures & Algorithms",
+      "description": "Foundational CS concepts including arrays, trees, graphs, sorting, searching, and complexity analysis.",
+      "icon": "GitBranch",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_fe",
+      "name": "Frontend Development",
+      "description": "Building user interfaces using HTML, CSS, JavaScript, and modern frameworks like React and Next.js.",
+      "icon": "Monitor",
+      "level": "beginner"
+    },
+    {
+      "id": "domain_be",
+      "name": "Backend Development",
+      "description": "Server-side development including APIs, databases, authentication, and server frameworks.",
+      "icon": "Server",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_fs",
+      "name": "Full Stack Development",
+      "description": "End-to-end web application development combining frontend, backend, and database skills.",
+      "icon": "Layers",
+      "level": "advanced"
+    },
+    {
+      "id": "domain_ai",
+      "name": "AI / Machine Learning",
+      "description": "Machine learning algorithms, deep learning, model training, evaluation, and deployment.",
+      "icon": "Brain",
+      "level": "advanced"
+    },
+    {
+      "id": "domain_ds",
+      "name": "Data Science",
+      "description": "Data analysis, visualization, statistical modeling, and extracting insights from datasets.",
+      "icon": "BarChart2",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_devops",
+      "name": "DevOps",
+      "description": "CI/CD pipelines, containerization, infrastructure as code, and deployment automation.",
+      "icon": "Settings",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_cloud",
+      "name": "Cloud Computing",
+      "description": "Cloud platforms, services, architecture patterns, serverless computing, and cloud-native applications.",
+      "icon": "Cloud",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_sec",
+      "name": "Cybersecurity",
+      "description": "Network security, cryptography, ethical hacking, vulnerabilities, and secure coding practices.",
+      "icon": "Shield",
+      "level": "advanced"
+    },
+    {
+      "id": "domain_mobile",
+      "name": "Mobile Development",
+      "description": "Building native and cross-platform mobile applications for iOS and Android.",
+      "icon": "Smartphone",
+      "level": "intermediate"
+    },
+    {
+      "id": "domain_sys",
+      "name": "System Design",
+      "description": "Designing scalable, reliable, and maintainable large-scale distributed systems.",
+      "icon": "Network",
+      "level": "advanced"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "tech_c",
+      "name": "C",
+      "domain_id": "domain_pl",
+      "difficulty": "intermediate",
+      "core_concepts": ["pointers", "memory_management", "structs", "file_io", "preprocessor", "bitwise_operations"]
+    },
+    {
+      "id": "tech_cpp",
+      "name": "C++",
+      "domain_id": "domain_pl",
+      "difficulty": "intermediate",
+      "core_concepts": ["oop", "templates", "stl", "raii", "move_semantics", "operator_overloading", "virtual_functions"]
+    },
+    {
+      "id": "tech_java",
+      "name": "Java",
+      "domain_id": "domain_pl",
+      "difficulty": "intermediate",
+      "core_concepts": ["oop", "jvm", "generics", "collections", "multithreading", "interfaces", "exception_handling"]
+    },
+    {
+      "id": "tech_python",
+      "name": "Python",
+      "domain_id": "domain_pl",
+      "difficulty": "beginner",
+      "core_concepts": ["dynamic_typing", "list_comprehensions", "decorators", "generators", "oop", "modules", "context_managers"]
+    },
+    {
+      "id": "tech_js",
+      "name": "JavaScript",
+      "domain_id": "domain_pl",
+      "difficulty": "beginner",
+      "core_concepts": ["closures", "prototypes", "async_await", "event_loop", "dom", "es6+", "hoisting"]
+    },
+    {
+      "id": "tech_html",
+      "name": "HTML",
+      "domain_id": "domain_fe",
+      "difficulty": "beginner",
+      "core_concepts": ["semantic_html", "forms", "accessibility", "seo", "media", "canvas", "web_storage"]
+    },
+    {
+      "id": "tech_css",
+      "name": "CSS",
+      "domain_id": "domain_fe",
+      "difficulty": "beginner",
+      "core_concepts": ["flexbox", "grid", "animations", "responsive_design", "variables", "specificity", "pseudo_elements"]
+    },
+    {
+      "id": "tech_react",
+      "name": "React",
+      "domain_id": "domain_fe",
+      "difficulty": "intermediate",
+      "core_concepts": ["hooks", "state_management", "component_lifecycle", "jsx", "context", "virtual_dom", "reconciliation"]
+    },
+    {
+      "id": "tech_nextjs",
+      "name": "Next.js",
+      "domain_id": "domain_fe",
+      "difficulty": "intermediate",
+      "core_concepts": ["ssr", "ssg", "isr", "app_router", "api_routes", "image_optimization", "middleware"]
+    },
+    {
+      "id": "tech_tailwind",
+      "name": "Tailwind CSS",
+      "domain_id": "domain_fe",
+      "difficulty": "beginner",
+      "core_concepts": ["utility_classes", "responsive_prefixes", "custom_config", "dark_mode", "jit", "plugins"]
+    },
+    {
+      "id": "tech_nodejs",
+      "name": "Node.js",
+      "domain_id": "domain_be",
+      "difficulty": "intermediate",
+      "core_concepts": ["event_loop", "streams", "modules", "npm", "clustering", "buffers", "child_processes"]
+    },
+    {
+      "id": "tech_express",
+      "name": "Express.js",
+      "domain_id": "domain_be",
+      "difficulty": "intermediate",
+      "core_concepts": ["middleware", "routing", "rest_apis", "error_handling", "authentication", "cors", "templating"]
+    },
+    {
+      "id": "tech_django",
+      "name": "Django",
+      "domain_id": "domain_be",
+      "difficulty": "intermediate",
+      "core_concepts": ["mvt_pattern", "orm", "admin", "forms", "authentication", "signals", "celery"]
+    },
+    {
+      "id": "tech_springboot",
+      "name": "Spring Boot",
+      "domain_id": "domain_be",
+      "difficulty": "advanced",
+      "core_concepts": ["dependency_injection", "rest_controllers", "jpa", "security", "auto_configuration", "actuator", "microservices"]
+    },
+    {
+      "id": "tech_docker",
+      "name": "Docker",
+      "domain_id": "domain_devops",
+      "difficulty": "intermediate",
+      "core_concepts": ["containers", "images", "dockerfile", "volumes", "networking", "compose", "registry"]
+    },
+    {
+      "id": "tech_kubernetes",
+      "name": "Kubernetes",
+      "domain_id": "domain_devops",
+      "difficulty": "advanced",
+      "core_concepts": ["pods", "deployments", "services", "ingress", "configmaps", "helm", "autoscaling"]
+    },
+    {
+      "id": "tech_aws",
+      "name": "AWS",
+      "domain_id": "domain_cloud",
+      "difficulty": "intermediate",
+      "core_concepts": ["ec2", "s3", "lambda", "rds", "vpc", "iam", "cloudformation"]
+    },
+    {
+      "id": "tech_ml",
+      "name": "Machine Learning",
+      "domain_id": "domain_ai",
+      "difficulty": "advanced",
+      "core_concepts": ["supervised_learning", "unsupervised_learning", "overfitting", "cross_validation", "feature_engineering", "ensemble_methods", "gradient_descent"]
+    },
+    {
+      "id": "tech_dsa_core",
+      "name": "DSA Fundamentals",
+      "domain_id": "domain_dsa",
+      "difficulty": "intermediate",
+      "core_concepts": ["arrays", "linked_lists", "stacks", "queues", "sorting", "searching", "complexity_analysis"]
+    },
+    {
+      "id": "tech_python_ds",
+      "name": "Data Science with Python",
+      "domain_id": "domain_ds",
+      "difficulty": "intermediate",
+      "core_concepts": ["pandas", "numpy", "matplotlib", "scikit-learn", "data_cleaning", "statistical_analysis"]
+    },
+    {
+      "id": "tech_cyber_sec",
+      "name": "Network Security",
+      "domain_id": "domain_sec",
+      "difficulty": "advanced",
+      "core_concepts": ["firewalls", "encryption", "penetration_testing", "vulnerability_assessment", "ids_ips", "security_protocols"]
+    },
+    {
+      "id": "tech_react_native",
+      "name": "React Native",
+      "domain_id": "domain_mobile",
+      "difficulty": "intermediate",
+      "core_concepts": ["components", "navigation", "state_management", "native_modules", "hooks", "performance_optimization"]
+    },
+    {
+      "id": "tech_system_design",
+      "name": "System Design Core",
+      "domain_id": "domain_sys",
+      "difficulty": "advanced",
+      "core_concepts": ["scalability", "load_balancing", "caching", "database_sharding", "microservices", "message_queues"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_dsa_001",
+      "domain_id": "domain_dsa",
+      "technology_id": "tech_dsa_core",
+      "difficulty": "easy",
+      "question": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST)?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "correct_answer": "O(log n)",
+      "explanation": "In a balanced BST, each comparison allows you to skip half of the remaining nodes, leading to logarithmic time complexity.",
+      "concept": "complexity_analysis",
+      "tags": ["dsa", "bst", "time_complexity"],
+      "weight": 2
+    },
+    {
+      "id": "q_ds_001",
+      "domain_id": "domain_ds",
+      "technology_id": "tech_python_ds",
+      "difficulty": "easy",
+      "question": "Which Python library is primarily used for data manipulation and analysis, providing structures like DataFrames?",
+      "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+      "correct_answer": "Pandas",
+      "explanation": "Pandas is the standard library for data manipulation in Python, offering the DataFrame object for handling tabular data.",
+      "concept": "pandas",
+      "tags": ["data_science", "python", "pandas"],
+      "weight": 2
+    },
+    {
+      "id": "q_sec_001",
+      "domain_id": "domain_sec",
+      "technology_id": "tech_cyber_sec",
+      "difficulty": "medium",
+      "question": "Which protocol is used to securely log into a remote server over an unsecured network?",
+      "options": ["Telnet", "FTP", "SSH", "HTTP"],
+      "correct_answer": "SSH",
+      "explanation": "SSH (Secure Shell) provides encrypted communication for operating network services securely over an unsecured network.",
+      "concept": "security_protocols",
+      "tags": ["cybersecurity", "network", "ssh"],
+      "weight": 3
+    },
+    {
+      "id": "q_mobile_001",
+      "domain_id": "domain_mobile",
+      "technology_id": "tech_react_native",
+      "difficulty": "easy",
+      "question": "In React Native, which component is used as a container that supports layout with flexbox and style?",
+      "options": ["<Container>", "<View>", "<Div>", "<Box>"],
+      "correct_answer": "<View>",
+      "explanation": "The <View> component is the most fundamental component for building a UI, acting as a container for other components and supporting flexbox styling.",
+      "concept": "components",
+      "tags": ["mobile", "react_native", "ui"],
+      "weight": 2
+    },
+    {
+      "id": "q_sys_001",
+      "domain_id": "domain_sys",
+      "technology_id": "tech_system_design",
+      "difficulty": "medium",
+      "question": "What is the primary purpose of a Load Balancer in a distributed system?",
+      "options": ["To store user data", "To encrypt network traffic", "To distribute incoming network traffic across multiple servers", "To cache database queries"],
+      "correct_answer": "To distribute incoming network traffic across multiple servers",
+      "explanation": "A Load Balancer distributes incoming traffic across multiple servers to ensure no single server becomes overwhelmed, improving availability and reliability.",
+      "concept": "load_balancing",
+      "tags": ["system_design", "scalability", "load_balancer"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_001",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "easy",
+      "question": "What is the output of the following C code?\n```c\nint x = 5;\nint *p = &x;\n*p = 10;\nprintf(\"%d\", x);\n```",
+      "options": ["5", "10", "Address of x", "Compilation error"],
+      "correct_answer": "10",
+      "explanation": "p is a pointer to x. When we write *p = 10, we dereference the pointer and modify the value at the address p points to, which is x. So x becomes 10.",
+      "concept": "pointers",
+      "tags": ["pointer_dereferencing", "syntax", "memory"],
+      "weight": 2
+    },
+    {
+      "id": "q_c_002",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "Which of the following correctly declares a pointer to a function that takes an int and returns a float in C?",
+      "options": [
+        "float *ptr(int);",
+        "float (*ptr)(int);",
+        "float *(ptr)(int);",
+        "(*float ptr)(int);"
+      ],
+      "correct_answer": "float (*ptr)(int);",
+      "explanation": "In C, to declare a pointer to a function, the pointer name must be wrapped in parentheses with an asterisk: float (*ptr)(int). This declares ptr as a pointer to a function that accepts an int and returns a float. Without the parentheses, float *ptr(int) would declare a function prototype, not a pointer.",
+      "concept": "function_pointers",
+      "tags": ["syntax", "advanced_pointers", "functions"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_003",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "What is a memory leak in C and when does it occur?",
+      "options": [
+        "When you access an array out of bounds",
+        "When allocated heap memory is never freed before the program loses all references to it",
+        "When a stack variable is used after the function returns",
+        "When you use printf with wrong format specifiers"
+      ],
+      "correct_answer": "When allocated heap memory is never freed before the program loses all references to it",
+      "explanation": "A memory leak occurs when you allocate memory dynamically (using malloc/calloc/realloc) but never free it using free(). If the pointer is lost (overwritten or goes out of scope), you can no longer free that memory, causing the program to consume increasing amounts of memory over time.",
+      "concept": "memory_management",
+      "tags": ["memory", "heap", "malloc", "free"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_004",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "hard",
+      "question": "What is the difference between 'const int *p' and 'int * const p' in C?",
+      "options": [
+        "They are identical",
+        "'const int *p' means you cannot change p itself; 'int * const p' means you cannot change *p",
+        "'const int *p' means you cannot change *p; 'int * const p' means you cannot change p itself",
+        "Both prevent modification of the pointer and the value"
+      ],
+      "correct_answer": "'const int *p' means you cannot change *p; 'int * const p' means you cannot change p itself",
+      "explanation": "In 'const int *p', the const applies to the data pointed to (int), so *p cannot be modified but p can point elsewhere. In 'int * const p', the const applies to the pointer p itself, so p cannot point to another address but *p can be modified. Use 'const int * const p' to make both immutable.",
+      "concept": "pointers",
+      "tags": ["const", "pointer_qualifiers", "syntax"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_005",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "easy",
+      "question": "Which header file must be included to use the malloc() function in C?",
+      "options": ["stdio.h", "string.h", "stdlib.h", "memory.h"],
+      "correct_answer": "stdlib.h",
+      "explanation": "The malloc(), calloc(), realloc(), and free() functions for dynamic memory allocation are declared in stdlib.h (standard library header). stdio.h provides I/O functions like printf/scanf, and string.h provides string manipulation functions.",
+      "concept": "memory_management",
+      "tags": ["stdlib", "malloc", "headers"],
+      "weight": 1
+    },
+    {
+      "id": "q_c_006",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "What does the 'volatile' keyword signify in C?",
+      "options": [
+        "The variable can be modified by multiple threads only",
+        "The variable can change unexpectedly and the compiler should not optimize accesses to it",
+        "The variable is stored in volatile (fast) memory",
+        "The variable is read-only"
+      ],
+      "correct_answer": "The variable can change unexpectedly and the compiler should not optimize accesses to it",
+      "explanation": "The volatile keyword tells the compiler that a variable's value may change at any time without any action taken by the code (e.g., hardware registers, ISR-modified variables, shared memory). The compiler disables optimizations that assume the variable's value remains unchanged between reads, ensuring every access actually reads from memory.",
+      "concept": "memory_management",
+      "tags": ["volatile", "compiler_optimization", "embedded"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_007",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "hard",
+      "question": "What is the output of the following C code?\n```c\nchar str[] = \"Hello\";\nchar *p = str;\nprintf(\"%c\", *(p+2));\n```",
+      "options": ["H", "e", "l", "o"],
+      "correct_answer": "l",
+      "explanation": "p points to the start of str which is 'H'. p+2 advances the pointer by 2 positions (each char is 1 byte), pointing to the 3rd character. *(p+2) dereferences that pointer, giving 'l' (index 2 of \"Hello\", 0-indexed: H=0, e=1, l=2).",
+      "concept": "pointer_arithmetic",
+      "tags": ["pointer_arithmetic", "strings", "arrays"],
+      "weight": 2
+    },
+    {
+      "id": "q_c_008",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "What is the purpose of the #ifndef directive in a C header file?",
+      "options": [
+        "To define a macro with a conditional value",
+        "To prevent multiple inclusion of the same header file",
+        "To check if a function is not defined",
+        "To conditionally compile for a specific OS"
+      ],
+      "correct_answer": "To prevent multiple inclusion of the same header file",
+      "explanation": "Header guards using #ifndef, #define, and #endif prevent a header file from being included multiple times in the same compilation unit, which would cause duplicate declaration errors. Modern C/C++ also supports #pragma once as a cleaner alternative. The pattern is: #ifndef MY_HEADER_H, #define MY_HEADER_H, ... content ..., #endif.",
+      "concept": "preprocessor",
+      "tags": ["preprocessor", "header_guards", "macros"],
+      "weight": 2
+    },
+    {
+      "id": "q_c_009",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "hard",
+      "question": "A C program allocates a 2D array dynamically using an array of pointers. Which allocation sequence is correct?",
+      "options": [
+        "int **arr = malloc(rows * cols * sizeof(int));",
+        "int **arr = malloc(rows * sizeof(int*)); then for each row: arr[i] = malloc(cols * sizeof(int));",
+        "int **arr = calloc(rows, cols);",
+        "int *arr[rows] = malloc(cols * sizeof(int));"
+      ],
+      "correct_answer": "int **arr = malloc(rows * sizeof(int*)); then for each row: arr[i] = malloc(cols * sizeof(int));",
+      "explanation": "A proper dynamic 2D array uses a double pointer. First allocate an array of row-pointers (rows * sizeof(int*)), then for each row pointer, allocate a 1D array of ints (cols * sizeof(int)). This creates a jagged array where each row can have different sizes. Freeing requires freeing each row first, then the pointer array.",
+      "concept": "memory_management",
+      "tags": ["2d_arrays", "dynamic_allocation", "double_pointer"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_010",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "easy",
+      "question": "What is the size of an int on a 64-bit system in C (typically)?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler but typically 4 bytes"],
+      "correct_answer": "Depends on compiler but typically 4 bytes",
+      "explanation": "The C standard does not mandate the size of int—it is implementation-defined. However, on most modern 64-bit systems and compilers (GCC, MSVC, Clang), int is 4 bytes (32 bits). To get a specific size, use types from stdint.h like int32_t or int64_t.",
+      "concept": "data_types",
+      "tags": ["data_types", "platform_specific", "sizeof"],
+      "weight": 1
+    },
+    {
+      "id": "q_c_011",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "What will happen when you call free() twice on the same pointer in C?",
+      "options": [
+        "Nothing, free() is idempotent",
+        "The memory is freed twice, reducing usage",
+        "Undefined behavior — likely corruption of the heap",
+        "A compilation error will occur"
+      ],
+      "correct_answer": "Undefined behavior — likely corruption of the heap",
+      "explanation": "Calling free() twice on the same pointer (double-free) is undefined behavior. It typically corrupts the heap allocator's internal data structures, which can lead to crashes, security vulnerabilities, or silent data corruption. Best practice: set the pointer to NULL after freeing it so subsequent free(NULL) calls are safe no-ops.",
+      "concept": "memory_management",
+      "tags": ["double_free", "undefined_behavior", "security"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_012",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "easy",
+      "question": "In C, what is the difference between passing an array to a function and passing a struct to a function?",
+      "options": [
+        "Both are passed by value",
+        "Both are passed by reference",
+        "Arrays decay to pointers (pass by reference effectively), structs are passed by value",
+        "Arrays are passed by value, structs by reference"
+      ],
+      "correct_answer": "Arrays decay to pointers (pass by reference effectively), structs are passed by value",
+      "explanation": "When an array is passed to a function, it decays to a pointer to its first element, so modifications inside the function affect the original array. Structs, however, are passed by value—a copy is made. To avoid copying large structs and to modify them, pass a pointer to the struct instead.",
+      "concept": "arrays",
+      "tags": ["arrays", "structs", "pass_by_value", "pass_by_reference"],
+      "weight": 2
+    },
+    {
+      "id": "q_c_013",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "hard",
+      "question": "What is a segmentation fault in C and which of the following operations is most likely to cause one?",
+      "options": [
+        "int arr[5]; arr[3] = 7;",
+        "int *p = NULL; *p = 42;",
+        "char *s = \"Hello\"; printf(\"%s\", s);",
+        "int x = 10; int *p = &x; printf(\"%d\", *p);"
+      ],
+      "correct_answer": "int *p = NULL; *p = 42;",
+      "explanation": "A segmentation fault occurs when a program tries to access memory it is not allowed to access. Dereferencing a NULL pointer (*p = 42 where p is NULL) attempts to write to address 0, which is typically protected memory. This causes the OS to terminate the program with a segfault. The other options involve valid memory accesses.",
+      "concept": "pointers",
+      "tags": ["segfault", "null_pointer", "memory_access"],
+      "weight": 3
+    },
+    {
+      "id": "q_c_014",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "medium",
+      "question": "What does the 'static' keyword mean when applied to a local variable inside a function in C?",
+      "options": [
+        "The variable is stored in the stack and is faster",
+        "The variable retains its value between function calls",
+        "The variable is only accessible within the file",
+        "The variable is a constant and cannot be changed"
+      ],
+      "correct_answer": "The variable retains its value between function calls",
+      "explanation": "A static local variable is allocated in the data segment (not the stack) and is initialized only once. Its value persists across multiple calls to the function. This is useful for maintaining state without using global variables. Note: static at file scope gives internal linkage (visible only within the file).",
+      "concept": "storage_classes",
+      "tags": ["static", "lifetime", "storage_classes"],
+      "weight": 2
+    },
+    {
+      "id": "q_c_015",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_c",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```c\nint a = 5;\nprintf(\"%d %d %d\", a++, ++a, a);\n```",
+      "options": [
+        "5 7 7",
+        "5 6 6",
+        "6 7 7",
+        "Undefined behavior"
+      ],
+      "correct_answer": "Undefined behavior",
+      "explanation": "This is classic undefined behavior in C. Modifying a variable (a) more than once between two sequence points is undefined behavior. In C, function arguments are evaluated but the order of evaluation is unspecified, and reading/writing a variable multiple times without intervening sequence points leads to undefined behavior. The compiler may produce any result.",
+      "concept": "undefined_behavior",
+      "tags": ["undefined_behavior", "sequence_points", "operators"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_001",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "easy",
+      "question": "What is the difference between a struct and a class in C++?",
+      "options": [
+        "Structs cannot have methods; classes can",
+        "Structs have public members by default; classes have private members by default",
+        "Structs are stack-allocated; classes are heap-allocated",
+        "There is no difference"
+      ],
+      "correct_answer": "Structs have public members by default; classes have private members by default",
+      "explanation": "In C++, the only technical difference between struct and class is the default access specifier. Struct members are public by default, while class members are private by default. Both can have constructors, destructors, methods, and inheritance. The convention is to use struct for simple data aggregates and class for objects with behavior.",
+      "concept": "oop",
+      "tags": ["struct", "class", "access_specifiers", "oop"],
+      "weight": 1
+    },
+    {
+      "id": "q_cpp_002",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "What is RAII in C++ and how does it relate to resource management?",
+      "options": [
+        "Random Access Integrated Interface — a memory access pattern",
+        "Resource Acquisition Is Initialization — resources are acquired in constructors and released in destructors",
+        "A design pattern where resources are shared between objects",
+        "A garbage collection strategy in C++"
+      ],
+      "correct_answer": "Resource Acquisition Is Initialization — resources are acquired in constructors and released in destructors",
+      "explanation": "RAII (Resource Acquisition Is Initialization) is a core C++ idiom where resource lifetime (memory, file handles, locks) is tied to object lifetime. Resources are acquired in the constructor and released in the destructor. When an object goes out of scope, the destructor automatically runs, ensuring resources are properly freed. This is the basis for smart pointers (unique_ptr, shared_ptr).",
+      "concept": "raii",
+      "tags": ["raii", "smart_pointers", "resource_management", "destructors"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_003",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "What is the difference between deep copy and shallow copy in C++?",
+      "options": [
+        "Deep copy copies only pointer values; shallow copy copies the pointed-to data",
+        "Shallow copy copies only pointer values; deep copy copies the pointed-to data recursively",
+        "They are the same thing",
+        "Deep copy only works with primitive types"
+      ],
+      "correct_answer": "Shallow copy copies only pointer values; deep copy copies the pointed-to data recursively",
+      "explanation": "A shallow copy copies the values of all member variables, including pointers—meaning both objects point to the same memory. Modifying one affects the other, and double-free occurs on destruction. A deep copy allocates new memory and copies the pointed-to data, creating a truly independent object. The Rule of Three/Five in C++ addresses when you need custom copy constructor, copy assignment operator, and destructor.",
+      "concept": "oop",
+      "tags": ["copy_semantics", "rule_of_three", "memory"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_004",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "hard",
+      "question": "What is move semantics in C++11 and what problem does it solve?",
+      "options": [
+        "It allows objects to be physically moved in memory for cache efficiency",
+        "It transfers ownership of resources from a temporary object, avoiding expensive copies",
+        "It enables objects to be used in multiple threads",
+        "It is a way to move member variables between different class types"
+      ],
+      "correct_answer": "It transfers ownership of resources from a temporary object, avoiding expensive copies",
+      "explanation": "Move semantics (introduced in C++11) allows transferring ownership of resources (like heap memory) from a temporary (rvalue) object rather than copying. The move constructor/assignment operator 'steals' the internal resources and sets the source to a valid-but-empty state. This is critical for performance with large objects—std::vector, std::string etc. use move semantics to avoid O(n) copies when returning from functions.",
+      "concept": "move_semantics",
+      "tags": ["move_semantics", "rvalue_references", "performance", "cpp11"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_005",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "Which C++ STL container should you use for O(1) average-case lookup by key?",
+      "options": [
+        "std::map",
+        "std::set",
+        "std::unordered_map",
+        "std::vector"
+      ],
+      "correct_answer": "std::unordered_map",
+      "explanation": "std::unordered_map uses a hash table internally, providing O(1) average-case lookup, insertion, and deletion. std::map uses a red-black tree, providing O(log n) for all operations but maintains sorted order. Use unordered_map when you need fast lookups and don't need ordering; use map when you need sorted traversal or guaranteed O(log n) worst case.",
+      "concept": "stl",
+      "tags": ["stl", "hash_map", "complexity", "containers"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_006",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "hard",
+      "question": "What is a virtual destructor in C++ and why is it important?",
+      "options": [
+        "A destructor that is called virtually, meaning it may or may not execute",
+        "A destructor declared with the virtual keyword to ensure proper cleanup when deleting through a base class pointer",
+        "A destructor that destroys objects of all derived classes simultaneously",
+        "A destructor that is only called when using virtual inheritance"
+      ],
+      "correct_answer": "A destructor declared with the virtual keyword to ensure proper cleanup when deleting through a base class pointer",
+      "explanation": "When you delete a derived class object through a base class pointer, without a virtual destructor, only the base class destructor is called — the derived class destructor is skipped, causing resource leaks. Making the base class destructor virtual ensures that the correct (derived) destructor is called through the vtable. Any class intended to be used polymorphically should have a virtual destructor.",
+      "concept": "virtual_functions",
+      "tags": ["virtual_destructor", "polymorphism", "inheritance", "vtable"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_007",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "What is a C++ template and what is its primary advantage?",
+      "options": [
+        "A way to create placeholder functions that must be overridden",
+        "A compile-time mechanism to write generic, type-safe code that works with any data type",
+        "A runtime polymorphism mechanism similar to virtual functions",
+        "A way to create default implementations for abstract classes"
+      ],
+      "correct_answer": "A compile-time mechanism to write generic, type-safe code that works with any data type",
+      "explanation": "Templates enable generic programming in C++. The compiler generates specialized code for each type used, providing type safety without runtime overhead (unlike void* approaches). Function templates like sort<T> and class templates like vector<T> allow writing algorithms and data structures once. Template specialization allows customizing behavior for specific types.",
+      "concept": "templates",
+      "tags": ["templates", "generic_programming", "compile_time", "type_safety"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_008",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "easy",
+      "question": "What is operator overloading in C++ and which operator cannot be overloaded?",
+      "options": [
+        "Redefining operators for custom types; the :: (scope resolution) operator cannot be overloaded",
+        "Redefining operators for custom types; the + operator cannot be overloaded",
+        "A way to use operators with pointers; all operators can be overloaded",
+        "A runtime feature to change operator precedence"
+      ],
+      "correct_answer": "Redefining operators for custom types; the :: (scope resolution) operator cannot be overloaded",
+      "explanation": "Operator overloading allows defining how operators (+, -, ==, <<, etc.) work with user-defined types. For example, you can overload + for a Vector class to add vectors. Operators that cannot be overloaded include :: (scope resolution), . (member access), .* (pointer to member), ?: (ternary), and sizeof. You cannot change operator precedence or create new operators.",
+      "concept": "operator_overloading",
+      "tags": ["operator_overloading", "oop", "syntax"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_009",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "hard",
+      "question": "In C++, what is the difference between std::unique_ptr and std::shared_ptr?",
+      "options": [
+        "unique_ptr is faster; shared_ptr works across threads automatically",
+        "unique_ptr has exclusive ownership (one owner); shared_ptr allows multiple owners via reference counting",
+        "unique_ptr is for stack objects; shared_ptr is for heap objects",
+        "They are identical except unique_ptr uses less memory"
+      ],
+      "correct_answer": "unique_ptr has exclusive ownership (one owner); shared_ptr allows multiple owners via reference counting",
+      "explanation": "std::unique_ptr enforces exclusive ownership—only one pointer owns the resource at a time, and the resource is destroyed when the unique_ptr goes out of scope. It cannot be copied, only moved. std::shared_ptr allows multiple pointers to share ownership; the resource is destroyed when the last shared_ptr pointing to it is destroyed (using a reference count). Use unique_ptr by default for its lower overhead; use shared_ptr only when shared ownership is genuinely needed.",
+      "concept": "raii",
+      "tags": ["smart_pointers", "ownership", "memory_management", "raii"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_010",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "What does the 'override' keyword do in C++11?",
+      "options": [
+        "It forces a function to be compiled with higher optimization",
+        "It explicitly marks a virtual function override and causes a compile error if it doesn't actually override",
+        "It prevents a function from being overridden in subclasses",
+        "It replaces the virtual keyword for function declarations"
+      ],
+      "correct_answer": "It explicitly marks a virtual function override and causes a compile error if it doesn't actually override",
+      "explanation": "The override keyword (C++11) tells the compiler that a function is intended to override a virtual function in a base class. If no matching virtual function exists in any base class (e.g., due to a typo or signature mismatch), the compiler emits an error. This prevents the silent creation of a new virtual function when you intended to override, which is a common and hard-to-debug mistake.",
+      "concept": "virtual_functions",
+      "tags": ["override", "virtual_functions", "cpp11", "oop"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_011",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "easy",
+      "question": "What is a lambda expression in C++11?",
+      "options": [
+        "A special type of template function",
+        "An anonymous function object that can capture variables from the surrounding scope",
+        "A function that is evaluated at compile-time",
+        "A macro that expands to a regular function"
+      ],
+      "correct_answer": "An anonymous function object that can capture variables from the surrounding scope",
+      "explanation": "A lambda expression creates an unnamed function object inline. Syntax: [capture](params) -> return_type { body }. The capture list specifies which variables from the surrounding scope are accessible inside the lambda (by value [=] or by reference [&]). Lambdas are used extensively with STL algorithms like std::sort, std::for_each, and as callbacks.",
+      "concept": "lambdas",
+      "tags": ["lambda", "cpp11", "functional_programming", "closures"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_012",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "hard",
+      "question": "What is the 'Rule of Five' in modern C++ and when does it apply?",
+      "options": [
+        "A class should never have more than 5 methods",
+        "If you define any of: destructor, copy constructor, copy assignment, move constructor, or move assignment, you should define all five",
+        "Every class must have exactly 5 member variables",
+        "You should use at most 5 levels of class inheritance"
+      ],
+      "correct_answer": "If you define any of: destructor, copy constructor, copy assignment, move constructor, or move assignment, you should define all five",
+      "explanation": "The Rule of Five extends the Rule of Three (pre-C++11). If a class manages a resource (e.g., raw pointer) and defines any one of these five special member functions, it likely needs to define all five to ensure correct behavior for copying, moving, and destruction. If you can, prefer the Rule of Zero: design classes so the compiler-generated defaults work correctly (use smart pointers instead of raw pointers).",
+      "concept": "oop",
+      "tags": ["rule_of_five", "special_member_functions", "resource_management"],
+      "weight": 3
+    },
+    {
+      "id": "q_cpp_013",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "medium",
+      "question": "What is the purpose of the 'explicit' keyword in C++?",
+      "options": [
+        "To declare a function as having no side effects",
+        "To prevent implicit conversions and copy-initialization via constructors",
+        "To force a function to be defined in the header file",
+        "To mark a class as non-inheritable"
+      ],
+      "correct_answer": "To prevent implicit conversions and copy-initialization via constructors",
+      "explanation": "The explicit keyword prevents a constructor from being used for implicit type conversions. Without explicit, a single-argument constructor acts as an implicit converter. For example, if MyClass has constructor MyClass(int), then MyClass obj = 42 would work implicitly. Marking it explicit makes this invalid and requires MyClass obj(42) or MyClass obj{42}. This prevents surprising implicit conversions.",
+      "concept": "oop",
+      "tags": ["explicit", "implicit_conversion", "constructors"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_014",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "easy",
+      "question": "What is the output of the following C++ code?\n```cpp\nstd::vector<int> v = {1, 2, 3, 4, 5};\nauto it = v.begin() + 2;\nv.erase(it);\nstd::cout << v[2];\n```",
+      "options": ["3", "4", "2", "Undefined behavior"],
+      "correct_answer": "4",
+      "explanation": "v.begin() + 2 points to element at index 2 (value 3). After v.erase(it), element 3 is removed and all subsequent elements shift left. The vector becomes {1, 2, 4, 5}. v[2] is now 4. Note: after erase, the iterator 'it' is invalidated, so using it afterwards would be undefined behavior, but we only access via index here.",
+      "concept": "stl",
+      "tags": ["vector", "iterators", "stl", "erase"],
+      "weight": 2
+    },
+    {
+      "id": "q_cpp_015",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_cpp",
+      "difficulty": "hard",
+      "question": "What is 'undefined behavior' in C++ and why is it dangerous in production code?",
+      "options": [
+        "Code that throws a runtime exception",
+        "Code whose behavior is unpredictable and not defined by the C++ standard — the compiler may do anything including optimizing incorrectly",
+        "Code that produces warnings during compilation",
+        "Code that behaves differently on different operating systems by design"
+      ],
+      "correct_answer": "Code whose behavior is unpredictable and not defined by the C++ standard — the compiler may do anything including optimizing incorrectly",
+      "explanation": "Undefined behavior (UB) is behavior for which the C++ standard imposes no requirements. Examples: signed integer overflow, null pointer dereference, out-of-bounds access, use-after-free. The danger is that the compiler assumes UB never happens and uses this assumption for optimizations, potentially transforming code in surprising ways. In production, UB can cause security vulnerabilities, crashes, or silent data corruption. Tools like ASan, UBSan, and Valgrind help detect UB.",
+      "concept": "undefined_behavior",
+      "tags": ["undefined_behavior", "memory_safety", "compiler_optimization"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_001",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "easy",
+      "question": "What is the difference between '==' and '.equals()' when comparing String objects in Java?",
+      "options": [
+        "They are identical for String comparison",
+        "'==' compares object references; '.equals()' compares the actual string content",
+        "'.equals()' compares object references; '==' compares content",
+        "'==' works only for primitive types; '.equals()' works only for objects"
+      ],
+      "correct_answer": "'==' compares object references; '.equals()' compares the actual string content",
+      "explanation": "In Java, '==' checks if two references point to the same object in memory. '.equals()' for String compares the character sequences. Two different String objects with identical content will return false with '==' but true with '.equals()'. String literals are interned (pooled), so 'hello' == 'hello' may be true, but new String('hello') == new String('hello') is false.",
+      "concept": "strings",
+      "tags": ["strings", "reference_equality", "object_equality"],
+      "weight": 1
+    },
+    {
+      "id": "q_java_002",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is the Java Memory Model and why does it matter for multithreaded programming?",
+      "options": [
+        "It defines how much memory the JVM allocates at startup",
+        "It specifies how threads interact with memory — visibility of shared variables and ordering of operations",
+        "It defines the garbage collection algorithm used by the JVM",
+        "It describes the layout of objects in heap memory"
+      ],
+      "correct_answer": "It specifies how threads interact with memory — visibility of shared variables and ordering of operations",
+      "explanation": "The Java Memory Model (JMM) defines the rules under which one thread's actions are visible to another. Without proper synchronization, threads may see stale values due to CPU caching and compiler reordering. The JMM uses happens-before relationships. Keywords: volatile (ensures visibility), synchronized (ensures atomicity + visibility), and java.util.concurrent utilities implement the JMM correctly.",
+      "concept": "multithreading",
+      "tags": ["jmm", "volatile", "multithreading", "visibility"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_003",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is the difference between ArrayList and LinkedList in Java?",
+      "options": [
+        "ArrayList is synchronized; LinkedList is not",
+        "ArrayList uses a dynamic array (O(1) random access); LinkedList uses doubly-linked nodes (O(n) random access, O(1) insertion at ends)",
+        "LinkedList supports generics; ArrayList does not",
+        "ArrayList is for primitives; LinkedList is for objects"
+      ],
+      "correct_answer": "ArrayList uses a dynamic array (O(1) random access); LinkedList uses doubly-linked nodes (O(n) random access, O(1) insertion at ends)",
+      "explanation": "ArrayList stores elements in a contiguous array, giving O(1) index-based access but O(n) insertion/deletion in the middle (requires shifting). LinkedList stores elements as nodes with next/prev pointers, giving O(1) insertion/deletion at ends or with an iterator, but O(n) random access. ArrayList is generally preferred for most use cases due to better cache performance.",
+      "concept": "collections",
+      "tags": ["arraylist", "linkedlist", "collections", "complexity"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_004",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "hard",
+      "question": "What is a deadlock in Java multithreading and how can it be prevented?",
+      "options": [
+        "When a thread runs out of memory; use try-catch blocks",
+        "When two or more threads are blocked forever waiting for each other to release locks; prevent by consistent lock ordering or using tryLock()",
+        "When a thread executes too slowly; use thread pools",
+        "When too many threads are created; use a semaphore"
+      ],
+      "correct_answer": "When two or more threads are blocked forever waiting for each other to release locks; prevent by consistent lock ordering or using tryLock()",
+      "explanation": "Deadlock occurs when Thread A holds Lock 1 and waits for Lock 2, while Thread B holds Lock 2 and waits for Lock 1. Prevention strategies: (1) Always acquire locks in the same order across all threads. (2) Use ReentrantLock.tryLock() with a timeout. (3) Use higher-level concurrency utilities (java.util.concurrent). (4) Avoid nested lock acquisition. Detection: thread dump analysis with jstack.",
+      "concept": "multithreading",
+      "tags": ["deadlock", "synchronization", "concurrency", "locks"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_005",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is autoboxing in Java and what performance concern does it raise?",
+      "options": [
+        "Automatic conversion between int and Integer (and other primitives/wrappers); can cause unnecessary object creation in loops",
+        "Automatic type casting between compatible objects",
+        "JVM optimization that automatically caches integers",
+        "A way to automatically close resources using try-with-resources"
+      ],
+      "correct_answer": "Automatic conversion between int and Integer (and other primitives/wrappers); can cause unnecessary object creation in loops",
+      "explanation": "Autoboxing is the automatic conversion of primitive types (int, double, boolean) to their wrapper classes (Integer, Double, Boolean) and vice versa (unboxing). The performance concern: in tight loops, operations like List<Integer> list; list.add(i) create a new Integer object each iteration. Also, using Integer in arithmetic can throw NullPointerException if the wrapper is null when unboxed. Use primitive arrays/streams where performance is critical.",
+      "concept": "generics",
+      "tags": ["autoboxing", "performance", "primitives", "wrapper_classes"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_006",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "easy",
+      "question": "What is the purpose of the 'final' keyword in Java when applied to a class, method, and variable?",
+      "options": [
+        "All three prevent inheritance",
+        "Class: cannot be subclassed; Method: cannot be overridden; Variable: cannot be reassigned after initialization",
+        "Class: is abstract; Method: is static; Variable: is a constant",
+        "It compiles the element with maximum optimization in all three cases"
+      ],
+      "correct_answer": "Class: cannot be subclassed; Method: cannot be overridden; Variable: cannot be reassigned after initialization",
+      "explanation": "The final keyword has three distinct uses: (1) final class — cannot be inherited (e.g., String, Integer). (2) final method — cannot be overridden by subclasses, used for security or design constraints. (3) final variable — must be initialized once and cannot be reassigned (though for object references, the object itself can still be mutated). Final variables in Java are similar to const in C++.",
+      "concept": "oop",
+      "tags": ["final", "inheritance", "immutability", "oop"],
+      "weight": 1
+    },
+    {
+      "id": "q_java_007",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "hard",
+      "question": "What is the difference between Comparable and Comparator interfaces in Java?",
+      "options": [
+        "Comparable defines multiple sort orders; Comparator defines one natural order",
+        "Comparable defines natural ordering in the class itself; Comparator defines external, custom ordering logic",
+        "They are identical and interchangeable",
+        "Comparable works with primitives; Comparator works with objects"
+      ],
+      "correct_answer": "Comparable defines natural ordering in the class itself; Comparator defines external, custom ordering logic",
+      "explanation": "Comparable (java.lang) has compareTo() method implemented inside the class itself, defining its 'natural' ordering (e.g., Integer, String). Used by Collections.sort() and TreeSet by default. Comparator (java.util) is a separate strategy object implementing compare(T o1, T o2), allowing multiple different sort orders for the same class without modifying it. Use Comparator.comparing() with lambdas in modern Java for clean, expressive sorting.",
+      "concept": "generics",
+      "tags": ["comparable", "comparator", "sorting", "functional_interfaces"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_008",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is garbage collection in Java and how does the generational hypothesis underpin it?",
+      "options": [
+        "Manual memory deallocation; objects are grouped by type",
+        "Automatic memory reclamation by the JVM; based on the observation that most objects die young, so memory is divided into Young and Old generations",
+        "A memory pool managed by the developer; old objects are removed first",
+        "A background thread that compresses heap memory periodically"
+      ],
+      "correct_answer": "Automatic memory reclamation by the JVM; based on the observation that most objects die young, so memory is divided into Young and Old generations",
+      "explanation": "Java's GC automatically frees unreachable objects. The generational hypothesis states most objects are short-lived. The heap is split into Young Generation (Eden + Survivor spaces, collected frequently via minor GC) and Old/Tenured Generation (collected less frequently via major/full GC). Objects that survive multiple minor GCs are promoted to the Old Generation. Modern GCs (G1, ZGC) further optimize for low pause times.",
+      "concept": "jvm",
+      "tags": ["garbage_collection", "jvm", "memory", "generational_gc"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_009",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "hard",
+      "question": "What is a checked exception vs an unchecked exception in Java?",
+      "options": [
+        "Checked exceptions extend Error; unchecked extend RuntimeException",
+        "Checked exceptions must be declared with 'throws' or handled with try-catch at compile time; unchecked exceptions (RuntimeException subclasses) do not require explicit handling",
+        "Checked exceptions are more severe than unchecked",
+        "Unchecked exceptions are checked at compile time; checked at runtime"
+      ],
+      "correct_answer": "Checked exceptions must be declared with 'throws' or handled with try-catch at compile time; unchecked exceptions (RuntimeException subclasses) do not require explicit handling",
+      "explanation": "Java's exception hierarchy: Throwable -> Error (JVM errors, don't catch) and Exception. Checked exceptions (extend Exception but not RuntimeException) must be either caught or declared in the method signature with 'throws'. They represent recoverable conditions (IOException, SQLException). Unchecked exceptions (RuntimeException subclasses like NullPointerException, IllegalArgumentException) indicate programming errors and don't require explicit handling.",
+      "concept": "exception_handling",
+      "tags": ["checked_exceptions", "unchecked_exceptions", "exception_hierarchy"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_010",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is the Java Stream API and how does it differ from traditional for-loops?",
+      "options": [
+        "Streams are faster than for-loops in all cases",
+        "Streams provide a functional, declarative approach to processing collections with lazy evaluation and possible parallelization",
+        "Streams are used only for I/O operations like reading files",
+        "Streams replace iterators but are otherwise identical to for-loops"
+      ],
+      "correct_answer": "Streams provide a functional, declarative approach to processing collections with lazy evaluation and possible parallelization",
+      "explanation": "Java Streams (java.util.stream, Java 8+) provide a pipeline API for processing sequences of elements: source -> intermediate operations (filter, map, sorted) -> terminal operation (collect, reduce, forEach). Key features: (1) Lazy evaluation — intermediate operations are not executed until a terminal operation is called. (2) Internal iteration instead of external (for-loop). (3) Can be parallelized with .parallelStream(). Not always faster than loops due to overhead, but often cleaner and more expressive.",
+      "concept": "streams",
+      "tags": ["streams", "java8", "functional_programming", "lambdas"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_011",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "easy",
+      "question": "What is an interface in Java and how does it differ from an abstract class?",
+      "options": [
+        "They are identical; interface is just an older syntax",
+        "Interface: only abstract methods (pre-Java 8), supports multiple implementation; Abstract class: can have state/concrete methods, single inheritance only",
+        "Abstract class can be instantiated; interface cannot",
+        "Interface supports constructors; abstract class does not"
+      ],
+      "correct_answer": "Interface: only abstract methods (pre-Java 8), supports multiple implementation; Abstract class: can have state/concrete methods, single inheritance only",
+      "explanation": "Interfaces define a contract (what to do, not how). Pre-Java 8: only abstract methods and constants. Java 8+: default and static methods allowed. Java 9+: private methods. A class can implement multiple interfaces (solving multiple inheritance). Abstract classes can have instance variables, constructors, and concrete methods, but a class can extend only one. Use interfaces to define capabilities/behaviors; abstract classes for partial implementation sharing.",
+      "concept": "interfaces",
+      "tags": ["interface", "abstract_class", "oop", "multiple_inheritance"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_012",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "hard",
+      "question": "What is the significance of 'synchronized' in Java and what is its overhead?",
+      "options": [
+        "It makes a method run in a separate thread",
+        "It ensures only one thread at a time can execute the method/block, using an intrinsic lock, but adds contention overhead",
+        "It marks a method as thread-safe without locking",
+        "It prevents the JVM from optimizing the method"
+      ],
+      "correct_answer": "It ensures only one thread at a time can execute the method/block, using an intrinsic lock, but adds contention overhead",
+      "explanation": "synchronized uses the object's intrinsic (monitor) lock. Synchronized methods lock on 'this' (or the Class for static). Synchronized blocks lock on any object. Overhead: acquiring/releasing the lock takes CPU time, and threads waiting for the lock are blocked (contention). Modern alternatives: java.util.concurrent.locks.ReentrantLock (with try-lock, fairness), AtomicInteger/AtomicReference (lock-free), and ConcurrentHashMap.",
+      "concept": "multithreading",
+      "tags": ["synchronized", "locks", "thread_safety", "performance"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_013",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is Java's Optional class and why was it introduced?",
+      "options": [
+        "A wrapper to make objects serializable",
+        "A container that may or may not hold a value, introduced to avoid NullPointerException and express nullable return types explicitly",
+        "A way to make method parameters optional",
+        "A lazy-loading wrapper for expensive objects"
+      ],
+      "correct_answer": "A container that may or may not hold a value, introduced to avoid NullPointerException and express nullable return types explicitly",
+      "explanation": "Optional<T> (Java 8) is a container that explicitly represents the possible absence of a value. Methods: Optional.of(value), Optional.empty(), Optional.ofNullable(value). Consumer methods: isPresent(), ifPresent(), orElse(), orElseGet(), orElseThrow(), map(), flatMap(). Best practice: use as return types for methods that may not find a result (like Repository.findById()), NOT as method parameters or field types.",
+      "concept": "optional",
+      "tags": ["optional", "null_safety", "java8", "functional_programming"],
+      "weight": 2
+    },
+    {
+      "id": "q_java_014",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "hard",
+      "question": "What is class loading in Java and what are the three built-in class loaders?",
+      "options": [
+        "Class loading is compiling .java files; loaders are: primary, secondary, tertiary",
+        "Class loading dynamically loads .class files into the JVM; loaders are: Bootstrap (core JDK), Platform/Extension, and Application (classpath)",
+        "Class loading is how Java handles generics; loaders are: generic, specific, custom",
+        "It is the JVM's memory allocation mechanism; loaders are: stack, heap, metaspace"
+      ],
+      "correct_answer": "Class loading dynamically loads .class files into the JVM; loaders are: Bootstrap (core JDK), Platform/Extension, and Application (classpath)",
+      "explanation": "Java loads classes dynamically at runtime through class loaders using a parent-delegation model. Bootstrap ClassLoader (written in native code) loads core JDK classes (java.lang, java.util). Platform ClassLoader loads Java SE platform APIs. Application ClassLoader loads classes from the classpath. When loading a class, each loader delegates to its parent first. Custom class loaders can be created for dynamic class loading, hot deployment, and isolation (used in OSGi, application servers).",
+      "concept": "jvm",
+      "tags": ["class_loading", "jvm", "classloader", "dynamic_loading"],
+      "weight": 3
+    },
+    {
+      "id": "q_java_015",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_java",
+      "difficulty": "medium",
+      "question": "What is the difference between HashMap and ConcurrentHashMap in Java?",
+      "options": [
+        "ConcurrentHashMap is slower but supports null values",
+        "HashMap is not thread-safe; ConcurrentHashMap is thread-safe using segment-level or node-level locking without blocking the entire map",
+        "They are identical in Java 8+",
+        "HashMap can only store Strings; ConcurrentHashMap supports all objects"
+      ],
+      "correct_answer": "HashMap is not thread-safe; ConcurrentHashMap is thread-safe using segment-level or node-level locking without blocking the entire map",
+      "explanation": "HashMap allows concurrent modification to corrupt its internal state (infinite loops in legacy Java, or data loss). ConcurrentHashMap is designed for concurrent access: in Java 8+, it uses CAS (Compare-And-Swap) operations and synchronized blocks on individual nodes rather than locking the entire map, allowing higher throughput. It does not allow null keys or values. For read-heavy workloads, consider also CopyOnWriteArrayList.",
+      "concept": "collections",
+      "tags": ["hashmap", "concurrenthashmap", "thread_safety", "collections"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_001",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "easy",
+      "question": "What is a Python list comprehension and what is the output of:\n```python\n[x**2 for x in range(5) if x % 2 == 0]\n```",
+      "options": [
+        "[1, 4, 9, 16, 25]",
+        "[0, 4, 16]",
+        "[0, 1, 4, 9, 16]",
+        "[4, 16]"
+      ],
+      "correct_answer": "[0, 4, 16]",
+      "explanation": "List comprehensions create lists concisely. The expression [x**2 for x in range(5) if x % 2 == 0] iterates x over [0,1,2,3,4], filters to even values (0, 2, 4), and squares them: 0**2=0, 2**2=4, 4**2=16. Result: [0, 4, 16]. List comprehensions are generally faster than equivalent for-loops with append().",
+      "concept": "list_comprehensions",
+      "tags": ["list_comprehension", "filtering", "syntax"],
+      "weight": 1
+    },
+    {
+      "id": "q_py_002",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is a Python decorator and what does the following code do?\n```python\n@timer\ndef compute():\n    pass\n```",
+      "options": [
+        "It marks compute() as a class method",
+        "It wraps compute() with the timer function, which receives compute as an argument and returns a new callable",
+        "It imports the timer function before calling compute()",
+        "It runs compute() inside a timer context manager"
+      ],
+      "correct_answer": "It wraps compute() with the timer function, which receives compute as an argument and returns a new callable",
+      "explanation": "@timer is syntactic sugar for compute = timer(compute). A decorator is a function that takes a function as input and returns a modified function. The decorator pattern is used for logging, timing, authentication, caching (functools.lru_cache), and rate limiting. Decorators with arguments use a factory: @decorator(arg) is compute = decorator(arg)(compute) — three nested functions.",
+      "concept": "decorators",
+      "tags": ["decorators", "higher_order_functions", "metaprogramming"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_003",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is the difference between a generator and a regular function in Python?",
+      "options": [
+        "Generators run faster than regular functions",
+        "Generators use 'yield' and produce values lazily one at a time without storing all values in memory; regular functions return all values at once",
+        "Generators cannot take parameters; regular functions can",
+        "Generators are defined with 'gen def' instead of 'def'"
+      ],
+      "correct_answer": "Generators use 'yield' and produce values lazily one at a time without storing all values in memory; regular functions return all values at once",
+      "explanation": "When a function contains 'yield', it becomes a generator function. Calling it returns a generator object (an iterator) without executing the body. Each call to next() runs the function until the next yield, suspending execution and returning the yielded value. Memory efficient for large sequences: range() in Python 3 is a lazy sequence, and reading large files line-by-line with generators avoids loading the entire file.",
+      "concept": "generators",
+      "tags": ["generators", "yield", "lazy_evaluation", "memory_efficiency"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_004",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "hard",
+      "question": "What is the Global Interpreter Lock (GIL) in CPython and how does it affect multithreading?",
+      "options": [
+        "A lock that prevents multiple processes from running simultaneously",
+        "A mutex in CPython that allows only one thread to execute Python bytecode at a time, limiting CPU parallelism for CPU-bound tasks",
+        "A lock that prevents garbage collection during execution",
+        "A global variable locking mechanism to prevent race conditions"
+      ],
+      "correct_answer": "A mutex in CPython that allows only one thread to execute Python bytecode at a time, limiting CPU parallelism for CPU-bound tasks",
+      "explanation": "The GIL is a mutex in CPython (the reference implementation) that protects Python's memory management. It prevents CPU-bound threads from running in true parallel on multiple cores. For I/O-bound tasks (network, disk), threading still helps since threads release the GIL during I/O. Solutions for CPU parallelism: multiprocessing module (separate processes, no GIL), or using NumPy/Cython which release the GIL. Python 3.13+ introduces per-interpreter GIL as an experimental feature.",
+      "concept": "gil",
+      "tags": ["gil", "cpython", "multithreading", "parallelism"],
+      "weight": 3
+    },
+    {
+      "id": "q_py_005",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is the difference between mutable and immutable objects in Python, and why does it matter for default arguments?",
+      "options": [
+        "Mutable objects can be deleted; immutable cannot",
+        "Mutable objects (lists, dicts) can be changed in place; immutable (int, str, tuple) cannot. Using a mutable default argument in a function is a common bug since it persists across calls",
+        "Immutable objects are automatically copied when passed to functions",
+        "There is no practical difference for function arguments"
+      ],
+      "correct_answer": "Mutable objects (lists, dicts) can be changed in place; immutable (int, str, tuple) cannot. Using a mutable default argument in a function is a common bug since it persists across calls",
+      "explanation": "Default argument values in Python are evaluated once at function definition time. If you use def f(lst=[]), the same list object is shared across all calls. Modifying it in one call affects subsequent calls. The Pythonic fix: use None as the default and create a new object inside: if lst is None: lst = []. This is a classic Python gotcha.",
+      "concept": "mutability",
+      "tags": ["mutable", "immutable", "default_arguments", "gotcha"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_006",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "easy",
+      "question": "What is a Python context manager and what are the two methods required to implement one?",
+      "options": [
+        "An object controlling execution flow; requires start() and stop()",
+        "An object used with the 'with' statement; requires __enter__() and __exit__() methods",
+        "A thread-safe container; requires lock() and unlock()",
+        "A class controlling imports; requires __init__() and __del__()"
+      ],
+      "correct_answer": "An object used with the 'with' statement; requires __enter__() and __exit__() methods",
+      "explanation": "Context managers (with statement) ensure proper resource management. __enter__ sets up the resource and can return a value (bound with 'as'). __exit__(exc_type, exc_val, exc_tb) handles cleanup and can suppress exceptions by returning True. Example: file handling (with open('f') as f), database connections, and threading.Lock(). The contextlib module provides @contextmanager decorator for generator-based context managers.",
+      "concept": "context_managers",
+      "tags": ["context_managers", "with_statement", "resource_management"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_007",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "hard",
+      "question": "What is the difference between *args and **kwargs in Python function definitions?",
+      "options": [
+        "*args captures named arguments; **kwargs captures positional ones",
+        "*args captures extra positional arguments as a tuple; **kwargs captures extra keyword arguments as a dict",
+        "Both capture the same thing but *args is for ints and **kwargs is for strings",
+        "They are only for class methods, not regular functions"
+      ],
+      "correct_answer": "*args captures extra positional arguments as a tuple; **kwargs captures extra keyword arguments as a dict",
+      "explanation": "*args (convention, the * is what matters) collects additional positional arguments beyond explicitly defined ones into a tuple. **kwargs collects additional keyword arguments into a dictionary. Example: def func(x, *args, **kwargs) called as func(1, 2, 3, a=4) gives x=1, args=(2,3), kwargs={'a':4}. Also used for unpacking: func(*list, **dict) passes list items as positional and dict items as keyword arguments.",
+      "concept": "functions",
+      "tags": ["args", "kwargs", "variadic_functions", "unpacking"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_008",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is __slots__ in Python and when should you use it?",
+      "options": [
+        "A class attribute defining allowed magic methods",
+        "A class-level declaration that replaces the per-instance __dict__ with a fixed-size array, reducing memory and potentially improving attribute access speed",
+        "A way to make certain class attributes read-only",
+        "A mechanism to enable multiple inheritance without MRO conflicts"
+      ],
+      "correct_answer": "A class-level declaration that replaces the per-instance __dict__ with a fixed-size array, reducing memory and potentially improving attribute access speed",
+      "explanation": "Normally, each Python object has a __dict__ dictionary for instance attributes, which consumes significant memory. __slots__ = ['x', 'y'] tells Python to allocate only specific attributes as fixed-size slots, eliminating __dict__. Benefits: 20-50% less memory per instance (critical when creating millions of objects), slightly faster attribute access. Drawbacks: cannot add arbitrary attributes, inheritance with __slots__ requires careful design.",
+      "concept": "oop",
+      "tags": ["slots", "memory_optimization", "oop", "performance"],
+      "weight": 3
+    },
+    {
+      "id": "q_py_009",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "easy",
+      "question": "What will the following Python code output?\n```python\nprint(type([]) == type(()))\n```",
+      "options": ["True", "False", "TypeError", "None"],
+      "correct_answer": "False",
+      "explanation": "type([]) returns <class 'list'> and type(()) returns <class 'tuple'>. These are different types, so the == comparison returns False. To check type, use isinstance() for flexibility with inheritance, or type() for exact type checking. Note: [] creates an empty list, () creates an empty tuple.",
+      "concept": "dynamic_typing",
+      "tags": ["type_checking", "list", "tuple", "syntax"],
+      "weight": 1
+    },
+    {
+      "id": "q_py_010",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "hard",
+      "question": "What is Python's MRO (Method Resolution Order) and how does C3 linearization work?",
+      "options": [
+        "MRO is the order Python searches superclasses for methods; C3 linearization ensures consistent, left-to-right depth-first order that respects the local precedence of base classes",
+        "MRO is Python's memory recycling optimization",
+        "MRO determines the order in which files are imported",
+        "MRO only applies to single inheritance hierarchies"
+      ],
+      "correct_answer": "MRO is the order Python searches superclasses for methods; C3 linearization ensures consistent, left-to-right depth-first order that respects the local precedence of base classes",
+      "explanation": "In multiple inheritance, Python uses C3 linearization to determine MRO (method search order). Check with ClassName.__mro__. The diamond problem: class D(B, C), class B(A), class C(A) — MRO ensures A is only visited once and local ordering is preserved. super() uses MRO to call the next class in line, enabling cooperative multiple inheritance. Understanding MRO is crucial when using mixins.",
+      "concept": "oop",
+      "tags": ["mro", "multiple_inheritance", "c3_linearization", "super"],
+      "weight": 3
+    },
+    {
+      "id": "q_py_011",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is the difference between shallow copy and deep copy in Python?",
+      "options": [
+        "Shallow copy duplicates all nested objects; deep copy only copies the top level",
+        "Shallow copy creates a new container but references the same nested objects; deep copy recursively creates new copies of all nested objects",
+        "They are identical for immutable objects and lists",
+        "copy.deepcopy() only works with primitive types"
+      ],
+      "correct_answer": "Shallow copy creates a new container but references the same nested objects; deep copy recursively creates new copies of all nested objects",
+      "explanation": "Using list slicing, list(), or copy.copy() creates a shallow copy — the new container is independent, but nested mutable objects (lists within lists, dicts) are shared. Modifying a nested object in the copy affects the original. copy.deepcopy() recursively copies all nested objects, creating a fully independent copy. Choice: use shallow copy when nested objects won't be mutated; deep copy for full independence.",
+      "concept": "mutability",
+      "tags": ["shallow_copy", "deep_copy", "mutability"],
+      "weight": 2
+    },
+    {
+      "id": "q_py_012",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is async/await in Python and when would you use it over threading?",
+      "options": [
+        "async/await is syntax for multiprocessing; use when CPU-bound",
+        "async/await enables cooperative concurrency on a single thread using an event loop; ideal for I/O-bound tasks with many concurrent operations",
+        "async/await is only for database operations",
+        "async/await and threading are identical in performance"
+      ],
+      "correct_answer": "async/await enables cooperative concurrency on a single thread using an event loop; ideal for I/O-bound tasks with many concurrent operations",
+      "explanation": "async/await (asyncio, Python 3.5+) uses an event loop for cooperative multitasking. An async function is a coroutine that can await I/O operations without blocking the thread. The event loop runs many coroutines concurrently on a single thread. Advantages over threading: no GIL issues, lower overhead (no OS thread context switching), handles thousands of concurrent connections. Use case: web servers (FastAPI, aiohttp), chat apps, API clients.",
+      "concept": "async_programming",
+      "tags": ["async_await", "asyncio", "coroutines", "event_loop"],
+      "weight": 3
+    },
+    {
+      "id": "q_py_013",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "hard",
+      "question": "What is a metaclass in Python?",
+      "options": [
+        "A class that can only be used as a base class",
+        "The class of a class — it controls how classes are created, enabling modification of class behavior at definition time",
+        "A class with only class methods and no instance methods",
+        "A class that wraps another class using the Proxy pattern"
+      ],
+      "correct_answer": "The class of a class — it controls how classes are created, enabling modification of class behavior at definition time",
+      "explanation": "In Python, everything is an object, including classes. type is the default metaclass — it creates class objects. Custom metaclasses (class Meta(type)) override __new__ or __init__ to customize class creation: automatically adding methods, enforcing interfaces, singleton patterns, ORM field registration (Django models use metaclasses). Syntax: class MyClass(metaclass=Meta). Use sparingly — metaclasses can make code hard to understand; class decorators or __init_subclass__ often suffice.",
+      "concept": "metaclasses",
+      "tags": ["metaclasses", "metaprogramming", "oop", "advanced"],
+      "weight": 3
+    },
+    {
+      "id": "q_py_014",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "easy",
+      "question": "What is the difference between 'is' and '==' in Python?",
+      "options": [
+        "They are identical for all types",
+        "'is' compares object identity (same memory location); '==' compares value equality",
+        "'is' compares values; '==' compares types",
+        "'is' only works with strings; '==' works with all types"
+      ],
+      "correct_answer": "'is' compares object identity (same memory location); '==' compares value equality",
+      "explanation": "== calls __eq__ to compare values: [1,2] == [1,2] is True. 'is' uses id() to check if both references point to the same object: [1,2] is [1,2] is False (different objects). Python caches small integers (-5 to 256) and short strings, so 'a' is 'a' may be True, but this is an implementation detail. Use 'is' only for identity checks (x is None, x is True) — never for value comparison.",
+      "concept": "operators",
+      "tags": ["identity", "equality", "operators", "gotcha"],
+      "weight": 1
+    },
+    {
+      "id": "q_py_015",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_python",
+      "difficulty": "medium",
+      "question": "What is 'duck typing' in Python and how does it relate to the principle 'Ask for forgiveness, not permission' (EAFP)?",
+      "options": [
+        "Duck typing means only using float types; EAFP means avoiding exceptions",
+        "Duck typing means checking for methods/attributes rather than type; EAFP means using try/except rather than checking preconditions (LBYL)",
+        "Both are Python anti-patterns to avoid",
+        "Duck typing is a testing framework; EAFP is a security model"
+      ],
+      "correct_answer": "Duck typing means checking for methods/attributes rather than type; EAFP means using try/except rather than checking preconditions (LBYL)",
+      "explanation": "Duck typing: 'If it walks like a duck and quacks like a duck, it's a duck' — Python doesn't require explicit type declarations; if an object has the needed methods, it works. EAFP (Easier to Ask Forgiveness than Permission) is the Pythonic style: try the operation and catch exceptions, rather than LBYL (Look Before You Leap): check if preconditions are met before acting. EAFP is more Pythonic and often more correct in concurrent contexts (avoids TOCTOU race conditions).",
+      "concept": "dynamic_typing",
+      "tags": ["duck_typing", "eafp", "dynamic_typing", "pythonic"],
+      "weight": 2
+    },
+    {
+      "id": "q_js_001",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "easy",
+      "question": "What is hoisting in JavaScript and what is the difference between var, let, and const hoisting?",
+      "options": [
+        "All declarations are moved to the top with their values",
+        "var declarations are hoisted and initialized to undefined; let and const are hoisted but not initialized (temporal dead zone)",
+        "Only function declarations are hoisted; variables are not",
+        "let and const are not hoisted at all"
+      ],
+      "correct_answer": "var declarations are hoisted and initialized to undefined; let and const are hoisted but not initialized (temporal dead zone)",
+      "explanation": "Hoisting moves declarations (not initializations) to the top of their scope. var is hoisted and initialized to undefined (so accessing before declaration gives undefined, not an error). let and const are hoisted but not initialized — accessing them before their declaration throws a ReferenceError (Temporal Dead Zone, TDZ). Function declarations are fully hoisted (declaration + body). Function expressions and arrow functions are not hoisted.",
+      "concept": "hoisting",
+      "tags": ["hoisting", "var", "let", "const", "tdz"],
+      "weight": 2
+    },
+    {
+      "id": "q_js_002",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is a closure in JavaScript? What does this code return?\n```js\nfunction counter() {\n  let count = 0;\n  return () => ++count;\n}\nconst c = counter();\nconsole.log(c(), c());\n```",
+      "options": [
+        "0 0",
+        "1 1",
+        "1 2",
+        "undefined undefined"
+      ],
+      "correct_answer": "1 2",
+      "explanation": "A closure is a function that retains access to its outer scope's variables even after the outer function has returned. counter() returns an arrow function that closes over 'count'. Each call to c() increments and returns count. First call: ++count makes count=1, returns 1. Second call: ++count makes count=2, returns 2. Closures enable data privacy, factory functions, and the module pattern.",
+      "concept": "closures",
+      "tags": ["closures", "scope", "arrow_functions"],
+      "weight": 2
+    },
+    {
+      "id": "q_js_003",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "Explain the JavaScript event loop and what makes async code possible?",
+      "options": [
+        "JavaScript runs on multiple threads; the event loop coordinates them",
+        "JavaScript is single-threaded; the event loop processes the callback queue after the call stack is empty, enabling non-blocking async through Web APIs",
+        "The event loop is part of the V8 engine and handles garbage collection",
+        "The event loop runs on a separate thread and pushes results to the main thread"
+      ],
+      "correct_answer": "JavaScript is single-threaded; the event loop processes the callback queue after the call stack is empty, enabling non-blocking async through Web APIs",
+      "explanation": "JavaScript has one call stack (one thread). The event loop: (1) Call stack executes synchronous code. (2) Async operations (setTimeout, fetch) are delegated to Web APIs (browser) or libuv (Node.js). (3) On completion, callbacks go to the callback queue (macrotasks) or microtask queue (Promises, queueMicrotask). (4) Event loop checks: if call stack is empty, drain microtask queue completely, then pick one macrotask. Microtasks (Promises) have priority over macrotasks (setTimeout).",
+      "concept": "event_loop",
+      "tags": ["event_loop", "async", "single_threaded", "call_stack"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_004",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is the difference between null and undefined in JavaScript?",
+      "options": [
+        "They are completely identical",
+        "undefined means a variable has been declared but not assigned; null is an intentional assignment indicating 'no value'",
+        "null is a primitive; undefined is an object",
+        "undefined is for numbers; null is for objects"
+      ],
+      "correct_answer": "undefined means a variable has been declared but not assigned; null is an intentional assignment indicating 'no value'",
+      "explanation": "undefined is the default value of uninitialized variables, missing function arguments, and absent object properties. null is explicitly assigned to indicate intentional absence of an object value. typeof undefined === 'undefined', but typeof null === 'object' (a famous JavaScript bug). Loose equality: null == undefined is true; null === undefined is false. Use === to distinguish them.",
+      "concept": "type_system",
+      "tags": ["null", "undefined", "type_coercion", "gotcha"],
+      "weight": 1
+    },
+    {
+      "id": "q_js_005",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "What is prototypal inheritance in JavaScript and how does the prototype chain work?",
+      "options": [
+        "JavaScript uses classical class-based inheritance like Java",
+        "Objects inherit directly from other objects via the prototype chain; property lookup traverses [[Prototype]] links until null is reached",
+        "Prototypal inheritance only works with ES6 classes",
+        "Each object has a copy of its prototype's methods"
+      ],
+      "correct_answer": "Objects inherit directly from other objects via the prototype chain; property lookup traverses [[Prototype]] links until null is reached",
+      "explanation": "Every JavaScript object has an internal [[Prototype]] slot linking to its prototype object. Property/method lookup: check the object itself, then its [[Prototype]], then that object's [[Prototype]], until null (end of chain). Object.getPrototypeOf() reads this. ES6 class syntax is syntactic sugar over prototypal inheritance — class methods are added to ClassName.prototype. Object.create(proto) creates an object with a specified prototype.",
+      "concept": "prototypes",
+      "tags": ["prototype_chain", "inheritance", "oop", "prototypes"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_006",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is the output of the following JavaScript code?\n```js\nconsole.log(typeof NaN);\nconsole.log(NaN === NaN);\n```",
+      "options": [
+        "NaN, true",
+        "number, false",
+        "undefined, false",
+        "number, true"
+      ],
+      "correct_answer": "number, false",
+      "explanation": "typeof NaN === 'number' — NaN is technically of type number (IEEE 754 Not-a-Number). NaN === NaN is false — NaN is the only JavaScript value not equal to itself. To check for NaN, use Number.isNaN(x) (strict) or isNaN(x) (coerces argument to number first). This is a famous JavaScript quirk from the IEEE 754 standard.",
+      "concept": "type_system",
+      "tags": ["nan", "typeof", "gotcha", "ieee754"],
+      "weight": 2
+    },
+    {
+      "id": "q_js_007",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "What are Promises in JavaScript and how do async/await relate to them?",
+      "options": [
+        "Promises are callback functions; async/await replaces them entirely",
+        "A Promise represents an eventual result; async/await is syntactic sugar over Promises using generator-like suspension",
+        "Promises only work for HTTP requests; async/await works for any async operation",
+        "async/await runs code synchronously; Promises are always asynchronous"
+      ],
+      "correct_answer": "A Promise represents an eventual result; async/await is syntactic sugar over Promises using generator-like suspension",
+      "explanation": "A Promise has three states: pending, fulfilled, rejected. Chaining: promise.then(onFulfilled).catch(onRejected). async/await is syntactic sugar: an async function always returns a Promise; await pauses execution of the async function (not the thread) until the Promise settles, then resumes. Error handling with try/catch in async functions corresponds to .catch() on Promises. Promise.all(), Promise.race(), Promise.allSettled() for concurrent operations.",
+      "concept": "async_await",
+      "tags": ["promises", "async_await", "asynchronous", "microtasks"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_008",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is destructuring assignment in JavaScript ES6?",
+      "options": [
+        "Deleting properties from an object",
+        "Unpacking values from arrays or properties from objects into distinct variables in a concise syntax",
+        "A way to convert objects to arrays",
+        "Removing methods from a class"
+      ],
+      "correct_answer": "Unpacking values from arrays or properties from objects into distinct variables in a concise syntax",
+      "explanation": "Destructuring allows: const [a, b] = [1, 2] (array destructuring) and const {name, age} = person (object destructuring). Features: default values const {x = 0} = {}, renaming const {name: firstName} = person, rest const [first, ...rest] = arr, nested destructuring. Used in function parameters: function({name, age}) {}. Widely used with React hooks and ES modules.",
+      "concept": "es6+",
+      "tags": ["destructuring", "es6", "syntax", "modern_js"],
+      "weight": 1
+    },
+    {
+      "id": "q_js_009",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "What is the 'this' keyword in JavaScript and how does its value get determined?",
+      "options": [
+        "'this' always refers to the global object",
+        "'this' is determined by how a function is called: implicit binding (obj.method()), explicit binding (call/apply/bind), new binding (constructors), or default binding (global/undefined in strict mode)",
+        "'this' in arrow functions refers to the current object",
+        "'this' is always the enclosing class instance"
+      ],
+      "correct_answer": "'this' is determined by how a function is called: implicit binding (obj.method()), explicit binding (call/apply/bind), new binding (constructors), or default binding (global/undefined in strict mode)",
+      "explanation": "this binding rules (precedence order): (1) new binding: constructor call, this = new object. (2) Explicit binding: .call(obj), .apply(obj), .bind(obj) — this = specified object. (3) Implicit binding: obj.method() — this = obj. (4) Default: standalone call — this = global (window) or undefined (strict mode). Arrow functions don't have their own this — they inherit from enclosing lexical scope.",
+      "concept": "this_keyword",
+      "tags": ["this", "binding", "scope", "arrow_functions"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_010",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "easy",
+      "question": "What is the spread operator in JavaScript and what does the following output?\n```js\nconst a = [1, 2, 3];\nconst b = [...a, 4, 5];\nconsole.log(b);\n```",
+      "options": [
+        "[[1,2,3], 4, 5]",
+        "[1, 2, 3, 4, 5]",
+        "[1, 2, 3]",
+        "Error"
+      ],
+      "correct_answer": "[1, 2, 3, 4, 5]",
+      "explanation": "The spread operator (...) expands an iterable (array, string) into individual elements. [...a, 4, 5] spreads the elements of a (1, 2, 3) and adds 4 and 5, creating a new array [1, 2, 3, 4, 5]. Common uses: array copy ([...arr]), array merge ([...a, ...b]), function call spread (Math.max(...arr)), object spread ({...obj, newProp: val}). The original array is not modified.",
+      "concept": "es6+",
+      "tags": ["spread_operator", "es6", "arrays", "syntax"],
+      "weight": 1
+    },
+    {
+      "id": "q_js_011",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "What is the difference between call(), apply(), and bind() in JavaScript?",
+      "options": [
+        "They are identical methods",
+        "call() invokes immediately with individual args; apply() invokes immediately with args array; bind() returns a new function with 'this' bound",
+        "bind() invokes immediately; call() and apply() return new functions",
+        "apply() is deprecated in ES6 in favor of spread operator"
+      ],
+      "correct_answer": "call() invokes immediately with individual args; apply() invokes immediately with args array; bind() returns a new function with 'this' bound",
+      "explanation": "All three set 'this' explicitly. func.call(thisArg, arg1, arg2) — invokes func immediately, args passed individually. func.apply(thisArg, [arg1, arg2]) — invokes immediately, args passed as array (useful when you have args in an array). func.bind(thisArg, arg1) — returns a NEW function with 'this' permanently bound and optional partial application (currying). Use bind for callbacks: setTimeout(this.handle.bind(this), 1000).",
+      "concept": "this_keyword",
+      "tags": ["call", "apply", "bind", "this", "function_methods"],
+      "weight": 2
+    },
+    {
+      "id": "q_js_012",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is a WeakMap in JavaScript and how does it differ from a regular Map?",
+      "options": [
+        "WeakMap is a slower version of Map for compatibility",
+        "WeakMap only allows object keys and holds weak references — if the key object is garbage collected, the entry is automatically removed",
+        "WeakMap stores values by reference; Map stores by value",
+        "WeakMap allows duplicate keys; Map does not"
+      ],
+      "correct_answer": "WeakMap only allows object keys and holds weak references — if the key object is garbage collected, the entry is automatically removed",
+      "explanation": "WeakMap keys must be objects (not primitives). The key-value pairs are weakly referenced — if no other reference to the key object exists, it can be garbage collected and the WeakMap entry is automatically pruned. WeakMap is not iterable (no .size, no .keys(), no .forEach()). Use case: associating private data or metadata with DOM nodes or objects without causing memory leaks. Use Map when you need iteration or primitive keys.",
+      "concept": "memory_management",
+      "tags": ["weakmap", "memory", "garbage_collection", "map"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_013",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "easy",
+      "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "options": [
+        "It enables ES6+ syntax",
+        "It activates strict mode, which catches common mistakes by throwing errors instead of silently ignoring them",
+        "It makes all variables constants",
+        "It forces synchronous execution"
+      ],
+      "correct_answer": "It activates strict mode, which catches common mistakes by throwing errors instead of silently ignoring them",
+      "explanation": "Strict mode ('use strict') prevents: using undeclared variables (throws ReferenceError), deleting variables/functions, duplicate parameter names, writing to read-only properties, octal literals. It makes 'this' undefined in standalone function calls (instead of global object). ES6 modules are automatically in strict mode. Strict mode helps catch bugs early and prepares code for future JS versions.",
+      "concept": "strict_mode",
+      "tags": ["strict_mode", "best_practices", "syntax"],
+      "weight": 1
+    },
+    {
+      "id": "q_js_014",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "hard",
+      "question": "What is 'event delegation' in JavaScript and why is it considered a performance optimization?",
+      "options": [
+        "Attaching event listeners to every child element for accurate targeting",
+        "Attaching a single event listener to a parent element that handles events from multiple children using event bubbling",
+        "Using Web Workers to handle events in background threads",
+        "Delegating event handling to the browser's native implementation"
+      ],
+      "correct_answer": "Attaching a single event listener to a parent element that handles events from multiple children using event bubbling",
+      "explanation": "Event bubbling: events propagate from the target element up through the DOM tree. Event delegation uses this to attach one listener on a parent to handle events from many children: parent.addEventListener('click', e => { if(e.target.matches('.child')) handleChild(e) }). Performance benefits: fewer listeners (memory), works for dynamically added children (no need to re-attach). Key properties: e.target (element that triggered event), e.currentTarget (element with listener).",
+      "concept": "dom",
+      "tags": ["event_delegation", "event_bubbling", "performance", "dom"],
+      "weight": 3
+    },
+    {
+      "id": "q_js_015",
+      "domain_id": "domain_pl",
+      "technology_id": "tech_js",
+      "difficulty": "medium",
+      "question": "What is the output of the following JavaScript code?\n```js\nconst obj = { a: 1 };\nconst copy = Object.assign({}, obj);\ncopy.a = 2;\nconsole.log(obj.a);\n```",
+      "options": ["2", "1", "undefined", "Error"],
+      "correct_answer": "1",
+      "explanation": "Object.assign({}, obj) creates a shallow copy — a new object with the same top-level properties. Since obj.a is a primitive (number), copy.a = 2 only modifies the copy's a property without affecting obj. obj.a remains 1. However, if obj had nested objects, they would be shared references (shallow copy). For deep cloning: structuredClone() (modern), JSON.parse(JSON.stringify()) (limited), or lodash _.cloneDeep().",
+      "concept": "objects",
+      "tags": ["object_assign", "shallow_copy", "objects", "primitives"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_001",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "easy",
+      "question": "What is the purpose of the useState hook in React and what does the following code do?\n```jsx\nconst [count, setCount] = useState(0);\n```",
+      "options": [
+        "Creates a ref that persists across renders",
+        "Declares a state variable 'count' initialized to 0, and a setter function 'setCount' that triggers a re-render when called",
+        "Connects to a Redux store variable named 'count'",
+        "Creates a computed property that recalculates on every render"
+      ],
+      "correct_answer": "Declares a state variable 'count' initialized to 0, and a setter function 'setCount' that triggers a re-render when called",
+      "explanation": "useState is a React hook for managing local component state. It returns [currentValue, setterFunction]. The setter triggers a re-render when called with a new value. Functional updates: setCount(prev => prev + 1) is safer than setCount(count + 1) in async contexts. State updates are batched in React 18. Initial value can be a function for lazy initialization: useState(() => expensiveComputation()).",
+      "concept": "hooks",
+      "tags": ["useState", "hooks", "state_management"],
+      "weight": 1
+    },
+    {
+      "id": "q_react_002",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What is the dependency array in useEffect and what happens with each of these?\n(1) useEffect(fn)  (2) useEffect(fn, [])  (3) useEffect(fn, [count])",
+      "options": [
+        "(1) runs once; (2) runs every render; (3) runs when count changes",
+        "(1) runs every render; (2) runs once on mount; (3) runs when count changes",
+        "(1) runs every render; (2) runs once on mount and unmount; (3) runs on mount only",
+        "All three are identical in behavior"
+      ],
+      "correct_answer": "(1) runs every render; (2) runs once on mount; (3) runs when count changes",
+      "explanation": "useEffect(fn) — no dependency array — runs after every render. useEffect(fn, []) — empty array — runs once after the initial mount (and cleanup runs on unmount). useEffect(fn, [count]) — runs after mount and after any render where count has changed. The cleanup function (return from effect) runs before the next effect and on unmount. Common use cases: subscriptions, fetching data, DOM manipulation, timers.",
+      "concept": "hooks",
+      "tags": ["useEffect", "dependency_array", "lifecycle", "hooks"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_003",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What is React's reconciliation algorithm (Fiber) and what heuristics does it use to diff the virtual DOM?",
+      "options": [
+        "React compares every node in the old and new trees for deep equality",
+        "React's Fiber architecture diffs trees using two heuristics: same element type = update, different type = unmount/remount; uses 'key' prop for list items to identify moves",
+        "React only re-renders components whose props shallow-differ",
+        "React uses a patching algorithm similar to Unix diff for text"
+      ],
+      "correct_answer": "React's Fiber architecture diffs trees using two heuristics: same element type = update, different type = unmount/remount; uses 'key' prop for list items to identify moves",
+      "explanation": "React Fiber (React 16+) enables interruptible rendering. Reconciliation heuristics: (1) Different element types at the same position → destroy old tree, mount new. (2) Same element type → update existing DOM node with new props. (3) In lists, 'key' prop enables identifying which items moved, were added, or removed — avoiding full list re-renders. Keys must be stable and unique among siblings. Fiber enables concurrent features: time-slicing, Suspense, transitions (startTransition).",
+      "concept": "reconciliation",
+      "tags": ["fiber", "reconciliation", "virtual_dom", "keys"],
+      "weight": 3
+    },
+    {
+      "id": "q_react_004",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What is the Context API in React and when should you prefer it over prop drilling?",
+      "options": [
+        "Context replaces Redux entirely; always use it instead of Redux",
+        "Context provides a way to share values across the component tree without passing props manually; prefer it for low-frequency global data like theme or auth",
+        "Context makes state updates faster than useState",
+        "Context is only for class components; hooks provide the functional equivalent"
+      ],
+      "correct_answer": "Context provides a way to share values across the component tree without passing props manually; prefer it for low-frequency global data like theme or auth",
+      "explanation": "Context (React.createContext, Provider, useContext) solves prop drilling for global state. However, all consumers re-render when context value changes. Best for infrequently changing global data: auth state, theme, locale. For high-frequency updates or complex state, prefer Zustand, Jotai, Redux Toolkit, or split contexts with useMemo. Context + useReducer is a viable Redux alternative for medium complexity.",
+      "concept": "context",
+      "tags": ["context_api", "prop_drilling", "state_management"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_005",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What is the difference between useMemo and useCallback in React?",
+      "options": [
+        "They are identical; useMemo is for older React versions",
+        "useMemo memoizes a computed value; useCallback memoizes a function reference — both recompute/recreate only when dependencies change",
+        "useMemo is for async operations; useCallback is for synchronous ones",
+        "useCallback prevents all re-renders; useMemo only prevents prop re-renders"
+      ],
+      "correct_answer": "useMemo memoizes a computed value; useCallback memoizes a function reference — both recompute/recreate only when dependencies change",
+      "explanation": "useMemo(() => expensiveCalc(a, b), [a, b]) — returns memoized result, recalculates when a or b changes. useCallback(() => handleClick(id), [id]) — returns memoized function reference, useful when passing callbacks to memoized child components to prevent unnecessary re-renders. Premature optimization warning: both add overhead; only use when profiling shows a performance issue. React.memo() + useCallback together prevent re-renders of child components.",
+      "concept": "hooks",
+      "tags": ["useMemo", "useCallback", "memoization", "performance"],
+      "weight": 3
+    },
+    {
+      "id": "q_react_006",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What is a custom hook in React and what rules govern hook usage?",
+      "options": [
+        "A custom hook is a class that extends the Hook class; rules say hooks must be inside class components",
+        "A custom hook is a function starting with 'use' that can call other hooks; hooks must only be called at the top level and inside React function components or custom hooks",
+        "Custom hooks are only for state management and cannot contain side effects",
+        "Hooks can be called conditionally inside loops for dynamic behavior"
+      ],
+      "correct_answer": "A custom hook is a function starting with 'use' that can call other hooks; hooks must only be called at the top level and inside React function components or custom hooks",
+      "explanation": "Custom hooks encapsulate reusable stateful logic (e.g., useFetch, useLocalStorage, useDebounce). Rules of Hooks (enforced by ESLint plugin): (1) Only call hooks at the top level — not in loops, conditions, or nested functions — so React can maintain hook order across renders. (2) Only call hooks inside React function components or custom hooks. Custom hooks allow sharing logic without HOCs or render props.",
+      "concept": "hooks",
+      "tags": ["custom_hooks", "rules_of_hooks", "reusability"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_007",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "easy",
+      "question": "What is JSX in React and how does the browser actually execute it?",
+      "options": [
+        "JSX is a new JavaScript version that browsers support natively",
+        "JSX is a syntax extension that Babel/transpilers convert to React.createElement() calls before the browser runs it",
+        "JSX is directly rendered by React without transformation",
+        "JSX is only valid inside .jsx files and not .js files"
+      ],
+      "correct_answer": "JSX is a syntax extension that Babel/transpilers convert to React.createElement() calls before the browser runs it",
+      "explanation": "JSX looks like HTML inside JavaScript: <div className='app'>Hello</div>. Babel transforms it to React.createElement('div', {className: 'app'}, 'Hello'). With React 17's new JSX transform, the import of React in scope is no longer required — Babel imports from react/jsx-runtime automatically. JSX expressions are wrapped in {}, and components start with uppercase to distinguish from HTML elements.",
+      "concept": "jsx",
+      "tags": ["jsx", "babel", "transpilation", "virtual_dom"],
+      "weight": 1
+    },
+    {
+      "id": "q_react_008",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What is React.memo() and when does it NOT prevent re-renders?",
+      "options": [
+        "React.memo() prevents all re-renders regardless of props",
+        "React.memo() is a HOC that shallowly compares props; it does NOT prevent re-renders when props are new object/function references even with same values",
+        "React.memo() is only effective for class components",
+        "React.memo() prevents re-renders only when parent state changes"
+      ],
+      "correct_answer": "React.memo() is a HOC that shallowly compares props; it does NOT prevent re-renders when props are new object/function references even with same values",
+      "explanation": "React.memo(Component) wraps a component and performs a shallow comparison of props before re-rendering. Fails when: parent passes a new object literal ({}) or inline function () => {} as a prop on every render — even if they're 'equal', they're different references. Solution: use useMemo for object props and useCallback for function props in the parent. Custom comparison: React.memo(Component, (prevProps, nextProps) => isEqual(prevProps, nextProps)).",
+      "concept": "reconciliation",
+      "tags": ["react_memo", "memoization", "shallow_comparison", "performance"],
+      "weight": 3
+    },
+    {
+      "id": "q_react_009",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What is React Suspense and what problem does it solve?",
+      "options": [
+        "Suspense handles errors in React components",
+        "Suspense allows components to 'wait' for async operations (lazy loading, data fetching) and show a fallback UI, preventing layout shift",
+        "Suspense replaces useEffect for all async operations",
+        "Suspense is a performance optimization that skips unnecessary renders"
+      ],
+      "correct_answer": "Suspense allows components to 'wait' for async operations (lazy loading, data fetching) and show a fallback UI, preventing layout shift",
+      "explanation": "React Suspense lets components declare loading states declaratively: <Suspense fallback={<Spinner/>}><LazyComponent/></Suspense>. Currently stable for: React.lazy() (code splitting). Experimental/stable (React 18): data fetching with Suspense-compatible libraries (React Query, Relay). Concurrent features use Suspense: startTransition marks state updates as non-urgent, keeping UI responsive. ErrorBoundary handles Suspense rejection.",
+      "concept": "component_lifecycle",
+      "tags": ["suspense", "lazy_loading", "code_splitting", "concurrent_mode"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_010",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What is useReducer in React and when should you use it instead of useState?",
+      "options": [
+        "useReducer is identical to useState but slower",
+        "useReducer manages complex state logic with a reducer function (action -> newState pattern); prefer over useState when state transitions are complex or multiple sub-values depend on each other",
+        "useReducer connects to a Redux store",
+        "useReducer is only for arrays and objects, not primitives"
+      ],
+      "correct_answer": "useReducer manages complex state logic with a reducer function (action -> newState pattern); prefer over useState when state transitions are complex or multiple sub-values depend on each other",
+      "explanation": "useReducer(reducer, initialState) returns [state, dispatch]. The reducer is a pure function: (state, action) => newState. Prefer useReducer when: (1) Next state depends on previous state. (2) Multiple related state values. (3) Complex update logic. (4) You need to test state transitions in isolation. Dispatch guarantees the latest state, avoiding stale closure issues. Context + useReducer implements a Redux-like pattern without external libraries.",
+      "concept": "hooks",
+      "tags": ["useReducer", "state_management", "reducer_pattern"],
+      "weight": 3
+    },
+    {
+      "id": "q_react_011",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What is the useRef hook in React and what are its two primary use cases?",
+      "options": [
+        "useRef creates a reactive state variable that updates the DOM directly",
+        "useRef (1) accesses DOM nodes directly; (2) stores mutable values that persist across renders without causing re-renders",
+        "useRef is a deprecated version of useState for DOM references only",
+        "useRef only works inside event handlers"
+      ],
+      "correct_answer": "useRef (1) accesses DOM nodes directly; (2) stores mutable values that persist across renders without causing re-renders",
+      "explanation": "useRef returns a mutable object {current: initialValue} that persists for the component's lifetime. Use case 1: DOM access — <input ref={inputRef}/> then inputRef.current.focus(). Use case 2: Mutable instance variables — storing previous values, timer IDs, or values you want to read in effects without them being dependencies. Crucially: mutating ref.current does NOT trigger a re-render, unlike setState.",
+      "concept": "hooks",
+      "tags": ["useRef", "dom_access", "mutable_ref"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_012",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "easy",
+      "question": "What is the key prop in React lists and what happens if you use array index as a key?",
+      "options": [
+        "Key is optional; using index is recommended for performance",
+        "Key helps React identify which items changed; using index as key causes incorrect updates when list items are reordered or deleted",
+        "Key must always be a UUID; any other value causes errors",
+        "Key is used for CSS styling of list items"
+      ],
+      "correct_answer": "Key helps React identify which items changed; using index as key causes incorrect updates when list items are reordered or deleted",
+      "explanation": "React uses keys to match old and new tree nodes during reconciliation. Using stable, unique IDs (like database IDs) as keys is correct. Using array index as key is problematic: if items are reordered or deleted, React maps keys to the same index positions, causing incorrect component state (e.g., an input's typed value staying on the 'same' index while the data underneath changed). Only use index keys if the list never reorders and is not filtered.",
+      "concept": "reconciliation",
+      "tags": ["keys", "lists", "reconciliation", "gotcha"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_013",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What is code splitting in React and how does React.lazy() enable it?",
+      "options": [
+        "Code splitting splits CSS from JavaScript during compilation",
+        "Code splitting divides the JS bundle into smaller chunks loaded on demand; React.lazy() dynamically imports components, creating separate bundle chunks",
+        "Code splitting is a security technique to prevent XSS",
+        "React.lazy() is used to defer component rendering until data is available"
+      ],
+      "correct_answer": "Code splitting divides the JS bundle into smaller chunks loaded on demand; React.lazy() dynamically imports components, creating separate bundle chunks",
+      "explanation": "Without code splitting, the entire app bundle must load before anything renders. React.lazy(() => import('./Component')) creates a separate chunk that's only fetched when the component first renders. Combined with Suspense for the loading state. Route-based splitting is most impactful: each route loads its own chunk. Webpack/Vite analyze dynamic imports to create chunks. This dramatically improves initial load time (Time To Interactive).",
+      "concept": "component_lifecycle",
+      "tags": ["code_splitting", "lazy_loading", "performance", "webpack"],
+      "weight": 3
+    },
+    {
+      "id": "q_react_014",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "medium",
+      "question": "What are controlled vs uncontrolled components in React?",
+      "options": [
+        "Controlled components have access modifiers; uncontrolled are public",
+        "Controlled: form input value is controlled by React state; Uncontrolled: form input manages its own state, accessed via ref",
+        "Controlled components use class syntax; uncontrolled use functional syntax",
+        "Controlled components have useEffect; uncontrolled do not"
+      ],
+      "correct_answer": "Controlled: form input value is controlled by React state; Uncontrolled: form input manages its own state, accessed via ref",
+      "explanation": "Controlled: <input value={state} onChange={e => setState(e.target.value)}/> — React is the single source of truth. Enables validation, instant response, conditional disabling. Uncontrolled: <input ref={inputRef}/> — DOM manages the value; access via ref.current.value. Use cases for uncontrolled: file inputs (always uncontrolled), integrating with non-React libraries, simple forms where you only need values on submit. React Hook Form uses uncontrolled inputs by default for performance.",
+      "concept": "component_lifecycle",
+      "tags": ["controlled_components", "uncontrolled_components", "forms"],
+      "weight": 2
+    },
+    {
+      "id": "q_react_015",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_react",
+      "difficulty": "hard",
+      "question": "What are Error Boundaries in React and what can't they catch?",
+      "options": [
+        "Error Boundaries catch all JavaScript errors anywhere in the application",
+        "Error Boundaries are class components that catch errors in child component trees during render/lifecycle; they cannot catch errors in event handlers, async code, or server-side rendering",
+        "Error Boundaries are React hooks for try/catch functionality",
+        "Error Boundaries only work with TypeScript for type errors"
+      ],
+      "correct_answer": "Error Boundaries are class components that catch errors in child component trees during render/lifecycle; they cannot catch errors in event handlers, async code, or server-side rendering",
+      "explanation": "Error Boundaries implement componentDidCatch(error, info) and getDerivedStateFromError() to display fallback UI instead of crashing. Currently only class components can be Error Boundaries (not hooks). They catch: render method errors, lifecycle method errors, constructor errors in child tree. They DO NOT catch: event handlers (use try/catch), async code (setTimeout, promises), errors in the boundary itself. Libraries: react-error-boundary provides a hooks-friendly wrapper.",
+      "concept": "component_lifecycle",
+      "tags": ["error_boundary", "error_handling", "resilience"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_001",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "easy",
+      "question": "What is the difference between Server-Side Rendering (SSR) and Static Site Generation (SSG) in Next.js?",
+      "options": [
+        "SSR is faster; SSG is older technology",
+        "SSR renders pages on each request at runtime; SSG pre-renders pages at build time as static HTML",
+        "SSG requires a Node.js server; SSR does not",
+        "They produce identical output and differ only in configuration"
+      ],
+      "correct_answer": "SSR renders pages on each request at runtime; SSG pre-renders pages at build time as static HTML",
+      "explanation": "SSG (getStaticProps in Pages Router, or default in App Router for non-dynamic data): pages built at build time as HTML, served from CDN — best performance, no server needed. SSR (getServerSideProps in Pages Router, or dynamic rendering in App Router): page rendered on each request — supports per-request dynamic data, authentication. ISR (Incremental Static Regeneration): revalidate static pages in the background at specified intervals — best of both worlds.",
+      "concept": "ssr",
+      "tags": ["ssr", "ssg", "rendering", "performance"],
+      "weight": 2
+    },
+    {
+      "id": "q_nextjs_002",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "medium",
+      "question": "What is the App Router in Next.js 13+ and how does it differ from the Pages Router?",
+      "options": [
+        "App Router uses file-based routing like Pages Router but with better performance",
+        "App Router introduces React Server Components by default, nested layouts, parallel routes, and uses the 'app/' directory instead of 'pages/'",
+        "App Router is the routing for API endpoints only",
+        "App Router replaces getStaticProps with a new function called fetchStatic()"
+      ],
+      "correct_answer": "App Router introduces React Server Components by default, nested layouts, parallel routes, and uses the 'app/' directory instead of 'pages/'",
+      "explanation": "App Router (Next.js 13+) is built on React Server Components. Key differences: all components are Server Components by default (zero client-side JS unless 'use client' is added); nested layouts (layout.js) that persist across route changes; loading.js, error.js, not-found.js conventions; parallel routes ((@)folder) and intercepting routes. Data fetching is direct async/await in Server Components, replacing getStaticProps/getServerSideProps.",
+      "concept": "app_router",
+      "tags": ["app_router", "server_components", "layouts", "nextjs13"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_003",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "hard",
+      "question": "What are React Server Components in Next.js and what are their limitations?",
+      "options": [
+        "Server Components run on the client but are rendered by a server API",
+        "Server Components execute on the server only, sending HTML to the client with no client-side JS; they cannot use state, effects, browser APIs, or event handlers",
+        "Server Components are identical to traditional SSR pages",
+        "Server Components replace API routes for all data fetching"
+      ],
+      "correct_answer": "Server Components execute on the server only, sending HTML to the client with no client-side JS; they cannot use state, effects, browser APIs, or event handlers",
+      "explanation": "React Server Components (RSC) render exclusively on the server. Benefits: direct database/filesystem access, zero bundle size, better initial load. Limitations: no useState, useEffect, useContext, no browser APIs (window, localStorage), no event handlers. Add 'use client' at the top of a file to make it a Client Component. Pattern: Server Components fetch data and pass it as props to Client Components for interactivity. Server Components can import Client Components but not vice versa.",
+      "concept": "ssr",
+      "tags": ["server_components", "rsc", "zero_bundle", "nextjs"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_004",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "medium",
+      "question": "What is ISR (Incremental Static Regeneration) in Next.js and how does it work?",
+      "options": [
+        "ISR continuously rebuilds the entire site in the background",
+        "ISR allows static pages to be updated after build by revalidating them in the background after a specified time interval, without requiring a full rebuild",
+        "ISR is a browser-side caching strategy",
+        "ISR only works for API routes and not page routes"
+      ],
+      "correct_answer": "ISR allows static pages to be updated after build by revalidating them in the background after a specified time interval, without requiring a full rebuild",
+      "explanation": "ISR (Incremental Static Regeneration): pages are statically generated at build time, but background regeneration is triggered when a request comes in after the revalidation period. The first request after expiry gets the old page (stale-while-revalidate), while Next.js regenerates the page. In App Router: export const revalidate = 60 (60 seconds). On-demand revalidation: revalidatePath() or revalidateTag() in Server Actions allows immediate invalidation.",
+      "concept": "isr",
+      "tags": ["isr", "caching", "static_generation", "performance"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_005",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "easy",
+      "question": "How does file-based routing work in Next.js App Router?",
+      "options": [
+        "Routes are defined in a separate routes.config.js file",
+        "Every folder inside 'app/' with a page.js/tsx file creates a route; the folder hierarchy maps directly to URL segments",
+        "Routes are defined using React Router v6 inside Next.js",
+        "Only top-level files create routes; nested folders create components"
+      ],
+      "correct_answer": "Every folder inside 'app/' with a page.js/tsx file creates a route; the folder hierarchy maps directly to URL segments",
+      "explanation": "In Next.js App Router: app/page.js → /, app/about/page.js → /about, app/blog/[slug]/page.js → /blog/:slug. Special files: layout.js (shared UI), loading.js (Suspense), error.js (Error Boundary), not-found.js, route.js (API endpoint). Route Groups: (groupName) folder that doesn't affect URL. Dynamic routes: [slug] or [...]catchAll. This eliminates manual router configuration.",
+      "concept": "app_router",
+      "tags": ["file_routing", "app_router", "dynamic_routes"],
+      "weight": 1
+    },
+    {
+      "id": "q_nextjs_006",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "hard",
+      "question": "What are Server Actions in Next.js 14 and how do they simplify form handling?",
+      "options": [
+        "Server Actions are functions that run in background threads",
+        "Server Actions are async functions marked with 'use server' that execute on the server directly from client components, eliminating the need for API route boilerplate",
+        "Server Actions replace getServerSideProps for data fetching",
+        "Server Actions are only available in the Pages Router"
+      ],
+      "correct_answer": "Server Actions are async functions marked with 'use server' that execute on the server directly from client components, eliminating the need for API route boilerplate",
+      "explanation": "Server Actions allow calling server-side code directly from Client Components without creating an API route. Example: async function createPost(formData) { 'use server'; await db.insert(data) }. In forms: <form action={createPost}>. Benefits: type-safe, progressive enhancement (works without JS), automatic serialization, can use revalidatePath() to update cached data. They're securely exposed as POST endpoints under the hood. Great for mutations: form submissions, database writes.",
+      "concept": "app_router",
+      "tags": ["server_actions", "forms", "mutations", "nextjs14"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_007",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "medium",
+      "question": "What is Next.js Image optimization and what key benefits does the next/image component provide?",
+      "options": [
+        "It automatically applies CSS filters to images",
+        "next/image automatically resizes, converts to WebP/AVIF, implements lazy loading, prevents CLS by requiring width/height, and serves from a CDN",
+        "It only compresses images without changing format",
+        "Image optimization only works with images in the /public folder"
+      ],
+      "correct_answer": "next/image automatically resizes, converts to WebP/AVIF, implements lazy loading, prevents CLS by requiring width/height, and serves from a CDN",
+      "explanation": "next/image optimization features: (1) Automatic format conversion to WebP/AVIF based on browser support. (2) Responsive sizes generation (srcset) based on the sizes prop. (3) Lazy loading (loading='lazy') by default — images below the fold load on scroll. (4) Priority prop for LCP images. (5) Blur placeholder (blurDataURL) prevents layout shift. (6) Serves optimized images through Next.js image optimization endpoint (or CDN). Requires defining allowed domains in next.config.js for external images.",
+      "concept": "image_optimization",
+      "tags": ["image_optimization", "performance", "webp", "lazy_loading"],
+      "weight": 2
+    },
+    {
+      "id": "q_nextjs_008",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "hard",
+      "question": "How does Next.js Middleware work and what are its common use cases?",
+      "options": [
+        "Middleware runs in Node.js on the server before route handlers",
+        "Middleware runs at the edge before requests are processed, allowing request modification, redirects, rewrites, and conditional logic using a limited API",
+        "Middleware replaces API routes for all authentication logic",
+        "Middleware only runs in production builds"
+      ],
+      "correct_answer": "Middleware runs at the edge before requests are processed, allowing request modification, redirects, rewrites, and conditional logic using a limited API",
+      "explanation": "Next.js Middleware (middleware.ts at project root) runs on the Edge Runtime (V8, not Node.js) at the CDN edge before the request reaches any route. Available APIs: NextRequest/NextResponse, cookies, headers, URL manipulation. Common uses: authentication/authorization (redirect to login if no session), A/B testing, geolocation-based routing, bot protection, request/response header modification. Not available: Node.js APIs, file system, native modules. Use the matcher config to specify which paths trigger middleware.",
+      "concept": "middleware",
+      "tags": ["middleware", "edge_runtime", "authentication", "routing"],
+      "weight": 3
+    },
+    {
+      "id": "q_nextjs_009",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "medium",
+      "question": "What is the purpose of the next.config.js file in Next.js?",
+      "options": [
+        "It defines all React component configurations",
+        "It configures the Next.js build process: environment variables, webpack customization, redirects, rewrites, headers, image domains, and feature flags",
+        "It replaces package.json for dependency management",
+        "It only configures TypeScript settings"
+      ],
+      "correct_answer": "It configures the Next.js build process: environment variables, webpack customization, redirects, rewrites, headers, image domains, and feature flags",
+      "explanation": "next.config.js (module.exports = {}) configures: images.domains/remotePatterns (external image sources), redirects() (301/302 with pattern matching), rewrites() (proxy API calls, hide external URLs), headers() (add security headers like CSP, CORS), webpack() (customize bundler), experimental features, env (build-time environment variables), basePath/assetPrefix for sub-path deployments. Always requires a server restart after changes.",
+      "concept": "app_router",
+      "tags": ["configuration", "webpack", "redirects", "headers"],
+      "weight": 2
+    },
+    {
+      "id": "q_nextjs_010",
+      "domain_id": "domain_fe",
+      "technology_id": "tech_nextjs",
+      "difficulty": "easy",
+      "question": "How does metadata work in Next.js App Router for SEO?",
+      "options": [
+        "SEO meta tags must still be added manually in a custom _document.js",
+        "Export a 'metadata' object or 'generateMetadata' function from any layout.js or page.js to define title, description, OG tags, and other meta",
+        "Metadata is only configured in next.config.js globally",
+        "Next.js does not support dynamic metadata; use react-helmet instead"
+      ],
+      "correct_answer": "Export a 'metadata' object or 'generateMetadata' function from any layout.js or page.js to define title, description, OG tags, and other meta",
+      "explanation": "Next.js App Router has a built-in metadata API: export const metadata = { title: 'Page Title', description: '...', openGraph: {...} } in any layout.js or page.js. For dynamic metadata: export async function generateMetadata({ params }) { return { title: await fetchTitle(params.id) } }. Metadata cascades and merges from layouts to pages. Supports: title templates (title: { template: '%s | MySite' }), robots, icons, viewport, and structured data.",
+      "concept": "app_router",
+      "tags": ["metadata", "seo", "open_graph", "app_router"],
+      "weight": 1
+    },
+    {
+      "id": "q_nodejs_001",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "easy",
+      "question": "What makes Node.js non-blocking and how does it handle concurrent requests with a single thread?",
+      "options": [
+        "Node.js creates a new thread for each request like Java",
+        "Node.js uses an event loop with libuv that delegates I/O operations to the OS and a thread pool, executing callbacks when complete without blocking",
+        "Node.js uses worker threads for every operation",
+        "Node.js runs in multiple processes by default"
+      ],
+      "correct_answer": "Node.js uses an event loop with libuv that delegates I/O operations to the OS and a thread pool, executing callbacks when complete without blocking",
+      "explanation": "Node.js is single-threaded for JavaScript execution but uses libuv (C library) which provides an event loop and a thread pool (default 4 threads, configurable via UV_THREADPOOL_SIZE). Network I/O is delegated to the OS's async I/O (epoll/kqueue). File I/O uses the thread pool. The event loop polls for completed operations and executes their callbacks. This enables handling thousands of concurrent connections without thread-per-request overhead.",
+      "concept": "event_loop",
+      "tags": ["event_loop", "libuv", "non_blocking_io", "concurrency"],
+      "weight": 3
+    },
+    {
+      "id": "q_nodejs_002",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "medium",
+      "question": "What are Node.js Streams and when should you use them over loading data into memory?",
+      "options": [
+        "Streams are deprecated; use async/await for all I/O",
+        "Streams process data chunk by chunk without loading it all into memory; essential for large files, video streaming, or piping data between sources",
+        "Streams are only for network requests, not file operations",
+        "Streams are slower than Buffer-based approaches for all use cases"
+      ],
+      "correct_answer": "Streams process data chunk by chunk without loading it all into memory; essential for large files, video streaming, or piping data between sources",
+      "explanation": "Node.js Streams: Readable (source), Writable (destination), Duplex (both), Transform (modify data). Key method: .pipe(). Use case: processing a 10GB CSV file — loading it entirely into memory would crash the process; streaming processes chunks. fs.createReadStream('.csv').pipe(csvParser).pipe(outputStream). Node.js HTTP responses are Writable streams. Backpressure: built-in mechanism to prevent fast producers from overwhelming slow consumers.",
+      "concept": "streams",
+      "tags": ["streams", "backpressure", "memory_efficiency", "pipe"],
+      "weight": 3
+    },
+    {
+      "id": "q_nodejs_003",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "hard",
+      "question": "What is the Node.js cluster module and why is it needed for production?",
+      "options": [
+        "It groups related Node.js modules together for organization",
+        "It creates multiple worker processes sharing the same port, utilizing all CPU cores since Node.js is single-threaded",
+        "It provides distributed computing across multiple machines",
+        "It manages multiple Node.js versions on the same machine"
+      ],
+      "correct_answer": "It creates multiple worker processes sharing the same port, utilizing all CPU cores since Node.js is single-threaded",
+      "explanation": "Since Node.js runs on one thread, it only uses one CPU core. The cluster module forks multiple worker processes (typically one per CPU core) that all share the same server port. The master process load balances incoming connections using round-robin (Linux) or OS-handled distribution (Windows). In production, PM2 (a process manager) provides clustering with auto-restart, monitoring, and zero-downtime reloads. Alternative: run separate Node instances behind a load balancer.",
+      "concept": "clustering",
+      "tags": ["cluster", "multicore", "pm2", "production"],
+      "weight": 3
+    },
+    {
+      "id": "q_nodejs_004",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "medium",
+      "question": "What is the difference between process.nextTick() and setImmediate() in Node.js?",
+      "options": [
+        "They are identical; one is deprecated",
+        "process.nextTick() fires before the next event loop iteration (before I/O callbacks); setImmediate() fires in the check phase after I/O callbacks",
+        "setImmediate() fires before all I/O; process.nextTick() fires after",
+        "process.nextTick() is for async code; setImmediate() is for sync code"
+      ],
+      "correct_answer": "process.nextTick() fires before the next event loop iteration (before I/O callbacks); setImmediate() fires in the check phase after I/O callbacks",
+      "explanation": "Node.js event loop phases: timers → pending callbacks → idle/prepare → poll (I/O) → check → close callbacks. process.nextTick() callbacks execute after the current operation completes but before the event loop continues — between phases. setImmediate() fires in the 'check' phase, after I/O events. Danger: recursive process.nextTick() can starve I/O. Prefer setImmediate() for I/O-heavy code to allow other operations to proceed.",
+      "concept": "event_loop",
+      "tags": ["nexttick", "setimmediate", "event_loop", "phases"],
+      "weight": 3
+    },
+    {
+      "id": "q_nodejs_005",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "easy",
+      "question": "What is the difference between CommonJS (require) and ES Modules (import/export) in Node.js?",
+      "options": [
+        "They are identical; import is just newer syntax for require",
+        "CommonJS: synchronous require(), dynamic; ES Modules: static import/export analyzed at parse time, supports tree-shaking, uses .mjs or 'type: module' in package.json",
+        "ES Modules only work in browsers; CommonJS only in Node.js",
+        "CommonJS supports named exports; ES Modules only support default exports"
+      ],
+      "correct_answer": "CommonJS: synchronous require(), dynamic; ES Modules: static import/export analyzed at parse time, supports tree-shaking, uses .mjs or 'type: module' in package.json",
+      "explanation": "CJS (require): synchronous, loads modules at runtime, can be conditional/dynamic, uses module.exports. ESM (import/export): statically analyzed, supports tree-shaking (dead code elimination), top-level await, asynchronous loading. Mix-and-match issues: CJS cannot directly use ESM; ESM can import CJS (as default only). In Node.js, .cjs is always CJS; .mjs is always ESM; .js depends on package.json 'type' field ('module' or 'commonjs').",
+      "concept": "modules",
+      "tags": ["commonjs", "esm", "modules", "tree_shaking"],
+      "weight": 2
+    },
+    {
+      "id": "q_nodejs_006",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "hard",
+      "question": "How do you handle memory leaks in a Node.js application?",
+      "options": [
+        "Restart the server periodically to clear memory",
+        "Monitor heap usage with process.memoryUsage(); detect with heap snapshots (--inspect); common causes: unbounded caches, event listener leaks, closures holding references, global variables",
+        "Use try-catch around all async code to prevent memory issues",
+        "Memory leaks are impossible in Node.js due to garbage collection"
+      ],
+      "correct_answer": "Monitor heap usage with process.memoryUsage(); detect with heap snapshots (--inspect); common causes: unbounded caches, event listener leaks, closures holding references, global variables",
+      "explanation": "Common Node.js memory leaks: (1) Event emitter leaks — attaching listeners without removing them (.removeListener() or .once()). (2) Unbounded caches — Maps/objects that grow indefinitely; use WeakMap or LRU cache. (3) Closures holding large objects in scope. (4) Forgotten timers — clearInterval() when done. Detection: Chrome DevTools with --inspect flag, clinic.js, node --inspect heap snapshots, process.memoryUsage().heapUsed tracking. V8 Profiler and 0x for CPU/memory profiling.",
+      "concept": "memory_management",
+      "tags": ["memory_leak", "heap", "profiling", "debugging"],
+      "weight": 3
+    },
+    {
+      "id": "q_nodejs_007",
+      "domain_id": "domain_be",
+      "technology_id": "tech_nodejs",
+      "difficulty": "medium",
+      "question": "What is the purpose of package.json 'engines' field and what does npm 'peer dependencies' mean?",
+      "options": [
+        "The 'engines' field lists npm scripts; peer dependencies are runtime dependencies",
+        "'engines' specifies compatible Node.js/npm versions; peer dependencies are packages a plugin/library expects the host project to provide",
+        "Both are deprecated in npm v7+",
+        "'engines' sets performance limits; peer dependencies enable tree-shaking"
+      ],
+      "correct_answer": "'engines' specifies compatible Node.js/npm versions; peer dependencies are packages a plugin/library expects the host project to provide",
+      "explanation": "engines: { \"node\": \">=18.0.0\" } in package.json declares the minimum required Node.js version (npm warns if violated; use --engine-strict to error). Peer dependencies (peerDependencies) are used by plugins/libraries that extend a host package. Example: a React component library lists react as peerDependency — it doesn't install its own React but uses the host app's. npm v7+ auto-installs peer dependencies. Prevents multiple React instances (a common cause of hooks errors).",
+      "concept": "npm",
+      "tags": ["npm", "package_json", "peer_dependencies", "versioning"],
+      "weight": 2
+    },
+    {
+      "id": "q_docker_001",
+      "domain_id": "domain_devops",
+      "technology_id": "tech_docker",
+      "difficulty": "easy",
+      "question": "What is the difference between a Docker image and a Docker container?",
+      "options": [
+        "They are the same thing",
+        "An image is a read-only template with instructions; a container is a running instance of an image",
+        "An image runs in production; a container is used for testing",
+        "An image stores data; a container is stateless"
+      ],
+      "correct_answer": "An image is a read-only template with instructions; a container is a running instance of an image",
+      "explanation": "A Docker image is a read-only template built from a Dockerfile — it contains the application code, runtime, libraries, and configuration. Images are stored in registries (Docker Hub, ECR). A container is an isolated, running instance created from an image. You can run multiple containers from the same image. Containers add a thin writable layer on top of the image. When a container is deleted, only this writable layer is lost.",
+      "concept": "containers",
+      "tags": ["image", "container", "fundamentals"],
+      "weight": 1
+    },
+    {
+      "id": "q_docker_002",
+      "domain_id": "domain_devops",
+      "technology_id": "tech_docker",
+      "difficulty": "medium",
+      "question": "What is a multi-stage Docker build and what problem does it solve?",
+      "options": [
+        "It runs multiple containers simultaneously",
+        "It uses multiple FROM instructions to separate build and runtime stages, resulting in smaller final images by excluding build tools",
+        "It builds images for multiple CPU architectures",
+        "It allows parallel builds of microservices"
+      ],
+      "correct_answer": "It uses multiple FROM instructions to separate build and runtime stages, resulting in smaller final images by excluding build tools",
+      "explanation": "Multi-stage builds solve image bloat. Example: Stage 1 (builder): FROM node:18 installs deps, compiles TypeScript. Stage 2 (runtime): FROM node:18-alpine COPY --from=builder /app/dist ./dist — only copies compiled output. The build tools (TypeScript compiler, dev deps) are left behind. Result: a 50MB runtime image instead of a 500MB build image. Benefits: smaller attack surface, faster deployment, less storage. Always use specific image tags for reproducibility.",
+      "concept": "dockerfile",
+      "tags": ["multi_stage", "image_optimization", "dockerfile"],
+      "weight": 3
+    },
+    {
+      "id": "q_docker_003",
+      "domain_id": "domain_devops",
+      "technology_id": "tech_docker",
+      "difficulty": "medium",
+      "question": "What is Docker layer caching and how should you order Dockerfile instructions to maximize cache hits?",
+      "options": [
+        "Docker caches the entire image; order doesn't matter",
+        "Each instruction creates a layer; layers are cached until a change is detected. Copy package.json first and npm install before COPY . to cache dependencies",
+        "Docker only caches FROM and ENV instructions",
+        "Caching only works with the --cache-from flag"
+      ],
+      "correct_answer": "Each instruction creates a layer; layers are cached until a change is detected. Copy package.json first and npm install before COPY . to cache dependencies",
+      "explanation": "Docker builds layers sequentially and caches them. If a layer changes, all subsequent layers are invalidated. Optimal Node.js order: (1) COPY package*.json ./ (2) RUN npm ci (3) COPY . . — this way, npm install only re-runs when package.json changes, not on every source code change. Place frequently changing instructions (COPY . .) last. Use .dockerignore to exclude node_modules, .git, and test files from the build context.",
+      "concept": "images",
+      "tags": ["layer_caching", "dockerfile_optimization", "build_speed"],
+      "weight": 2
+    },
+    {
+      "id": "q_docker_004",
+      "domain_id": "domain_devops",
+      "technology_id": "tech_docker",
+      "difficulty": "hard",
+      "question": "What is the difference between Docker volumes and bind mounts?",
+      "options": [
+        "They are identical mechanisms",
+        "Volumes are managed by Docker with Docker-managed storage; bind mounts map a specific host directory into the container",
+        "Bind mounts are faster; volumes support more data types",
+        "Volumes are for production; bind mounts are deprecated"
+      ],
+      "correct_answer": "Volumes are managed by Docker with Docker-managed storage; bind mounts map a specific host directory into the container",
+      "explanation": "Volumes (docker volume create): stored in Docker-managed filesystem (/var/lib/docker/volumes on Linux), portable, can be shared between containers, backed up with docker volume commands. Best for persistent data (databases). Bind mounts (-v /host/path:/container/path): maps a specific host directory/file into the container — great for development (live code changes). tmpfs mounts: store in host memory only (never written to disk, for sensitive data). Use volumes in production, bind mounts in development.",
+      "concept": "volumes",
+      "tags": ["volumes", "bind_mounts", "persistence", "storage"],
+      "weight": 2
+    },
+    {
+      "id": "q_docker_005",
+      "domain_id": "domain_devops",
+      "technology_id": "tech_docker",
+      "difficulty": "hard",
+      "question": "What is Docker Compose and what is the difference between 'depends_on' and health checks?",
+      "options": [
+        "Docker Compose runs containers in parallel; depends_on and health checks are identical",
+        "Docker Compose defines multi-container apps; 'depends_on' controls start order but doesn't wait for readiness; health checks define when a container is 'healthy' for condition:service_healthy",
+        "depends_on waits for a service to be fully initialized; health checks only monitor running containers",
+        "Docker Compose is deprecated in favor of Kubernetes"
+      ],
+      "correct_answer": "Docker Compose defines multi-container apps; 'depends_on' controls start order but doesn't wait for readiness; health checks define when a container is 'healthy' for condition:service_healthy",
+      "explanation": "docker-compose.yml defines services, networks, and volumes. depends_on: [db] starts db before app but only waits for the container to start — the database may not be ready to accept connections. Solution: depends_on with condition: service_healthy combined with a healthcheck on the db service (e.g., pg_isready). Production pattern: use retry logic in the app itself rather than relying on Compose orchestration, since Compose is primarily for development.",
+      "concept": "compose",
+      "tags": ["docker_compose", "depends_on", "health_checks", "orchestration"],
+      "weight": 3
+    },
+    {
+      "id": "q_ml_001",
+      "domain_id": "domain_ai",
+      "technology_id": "tech_ml",
+      "difficulty": "medium",
+      "question": "What is the difference between overfitting and underfitting in machine learning?",
+      "options": [
+        "Overfitting means the model is too small; underfitting means it is too large",
+        "Overfitting: high training accuracy, low test accuracy (model memorized training data); underfitting: low accuracy on both (model too simple to capture patterns)",
+        "Both refer to using the wrong loss function",
+        "Overfitting only happens with neural networks; underfitting with linear models"
+      ],
+      "correct_answer": "Overfitting: high training accuracy, low test accuracy (model memorized training data); underfitting: low accuracy on both (model too simple to capture patterns)",
+      "explanation": "Overfitting: the model fits training data too closely, learning noise instead of the true pattern. High variance, low bias. Solutions: more training data, regularization (L1/L2, dropout), cross-validation, simplify model. Underfitting: model lacks capacity to learn the underlying pattern. High bias, low variance. Solutions: more features, more complex model, reduce regularization. The bias-variance tradeoff guides model complexity selection.",
+      "concept": "overfitting",
+      "tags": ["overfitting", "underfitting", "bias_variance", "generalization"],
+      "weight": 2
+    },
+    {
+      "id": "q_ml_002",
+      "domain_id": "domain_ai",
+      "technology_id": "tech_ml",
+      "difficulty": "hard",
+      "question": "What is gradient descent and how does the learning rate affect training?",
+      "options": [
+        "Gradient descent finds the minimum loss by computing exact mathematical solutions",
+        "Gradient descent iteratively updates parameters by moving opposite to the loss gradient; learning rate too high causes divergence, too low causes slow convergence",
+        "Gradient descent only works with linear models",
+        "The learning rate determines the number of training epochs"
+      ],
+      "correct_answer": "Gradient descent iteratively updates parameters by moving opposite to the loss gradient; learning rate too high causes divergence, too low causes slow convergence",
+      "explanation": "Gradient descent: θ = θ - α * ∇L(θ), where α is the learning rate and ∇L is the gradient of the loss with respect to parameters. Learning rate effects: too high → oscillates around or diverges from minimum; too low → slow convergence, may get stuck in local minima; optimal → smooth convergence. Variants: SGD (one sample per step, noisy but fast), Mini-batch GD (batch of N, balance), Adam (adaptive learning rates per parameter, most popular). Learning rate schedules (cosine annealing, warmup) further improve training.",
+      "concept": "gradient_descent",
+      "tags": ["gradient_descent", "learning_rate", "optimization", "backpropagation"],
+      "weight": 3
+    },
+    {
+      "id": "q_ml_003",
+      "domain_id": "domain_ai",
+      "technology_id": "tech_ml",
+      "difficulty": "medium",
+      "question": "What is cross-validation and why is it more reliable than a single train/test split?",
+      "options": [
+        "Cross-validation trains multiple separate models on different datasets",
+        "k-fold cross-validation splits data into k folds, trains on k-1 and tests on the held-out fold k times, averaging results — reduces variance in performance estimates",
+        "Cross-validation is only used for hyperparameter tuning, not model evaluation",
+        "It is less reliable but faster than a single split"
+      ],
+      "correct_answer": "k-fold cross-validation splits data into k folds, trains on k-1 and tests on the held-out fold k times, averaging results — reduces variance in performance estimates",
+      "explanation": "A single train/test split can yield misleading metrics depending on which samples end up in each split. k-fold CV (k=5 or 10) ensures every sample is used for both training and testing. Average metric + standard deviation gives a robust performance estimate. Stratified k-fold maintains class proportions per fold (critical for imbalanced datasets). Nested CV is used when both model selection and final evaluation are needed. Leave-one-out (k=N) is used for very small datasets.",
+      "concept": "cross_validation",
+      "tags": ["cross_validation", "model_evaluation", "overfitting"],
+      "weight": 2
+    },
+    {
+      "id": "q_ml_004",
+      "domain_id": "domain_ai",
+      "technology_id": "tech_ml",
+      "difficulty": "hard",
+      "question": "What is the difference between L1 (Lasso) and L2 (Ridge) regularization?",
+      "options": [
+        "They are identical; L1 is for regression, L2 for classification",
+        "L1 adds absolute value of weights to loss, producing sparse models (some weights → 0); L2 adds squared weights, shrinking all weights towards zero without zeroing them",
+        "L2 produces sparser models than L1",
+        "L1 is used for neural networks; L2 for linear models only"
+      ],
+      "correct_answer": "L1 adds absolute value of weights to loss, producing sparse models (some weights → 0); L2 adds squared weights, shrinking all weights towards zero without zeroing them",
+      "explanation": "Regularization prevents overfitting by penalizing large weights. L1 (Lasso): loss += λΣ|wᵢ|. Creates sparse solutions — many weights become exactly 0, performing implicit feature selection. Useful when you suspect few features matter. L2 (Ridge): loss += λΣwᵢ². Shrinks all weights proportionally toward zero but rarely to exactly zero. Better when all features contribute. ElasticNet: combines L1+L2, balances sparsity and stability. In neural networks, L2 is called weight decay.",
+      "concept": "regularization",
+      "tags": ["l1_regularization", "l2_regularization", "lasso", "ridge"],
+      "weight": 3
+    },
+    {
+      "id": "q_ml_005",
+      "domain_id": "domain_ai",
+      "technology_id": "tech_ml",
+      "difficulty": "medium",
+      "question": "What is the ROC-AUC metric and when should you use it instead of accuracy?",
+      "options": [
+        "ROC-AUC is always better than accuracy for all classification tasks",
+        "ROC-AUC measures discrimination ability across all thresholds; use it for imbalanced datasets where accuracy is misleading (99% accuracy on 99:1 imbalanced data by predicting majority class always)",
+        "ROC-AUC is only for multi-class problems",
+        "Accuracy is always preferred; ROC-AUC is computationally too expensive"
+      ],
+      "correct_answer": "ROC-AUC measures discrimination ability across all thresholds; use it for imbalanced datasets where accuracy is misleading (99% accuracy on 99:1 imbalanced data by predicting majority class always)",
+      "explanation": "ROC curve: plots True Positive Rate vs False Positive Rate at each classification threshold. AUC (Area Under Curve): 0.5 = random, 1.0 = perfect. Threshold-invariant: measures the model's overall ranking ability. Use when: imbalanced classes, or when the cost of FP ≠ FN (fraud detection). Alternatives: PR-AUC (Precision-Recall) is better for very imbalanced data since it doesn't account for true negatives. F1-score balances precision and recall at a chosen threshold.",
+      "concept": "model_evaluation",
+      "tags": ["roc_auc", "imbalanced_data", "classification_metrics"],
+      "weight": 2
+    },
+    {
+      "id": "q_aws_001",
+      "domain_id": "domain_cloud",
+      "technology_id": "tech_aws",
+      "difficulty": "easy",
+      "question": "What is the difference between AWS EC2 and AWS Lambda?",
+      "options": [
+        "EC2 is for databases; Lambda is for web servers",
+        "EC2 provides virtual servers with full control; Lambda is serverless — runs code in response to events with no server management, charging only for execution time",
+        "Lambda is more expensive than EC2 for all workloads",
+        "EC2 supports containers; Lambda does not"
+      ],
+      "correct_answer": "EC2 provides virtual servers with full control; Lambda is serverless — runs code in response to events with no server management, charging only for execution time",
+      "explanation": "EC2 (Elastic Compute Cloud): virtual machines with full OS control, persistent state, suitable for long-running applications, databases, and workloads requiring consistent compute. Lambda: serverless FaaS (Function as a Service), executes code in response to events (API Gateway, S3, SQS), scales automatically to 0 when idle, max 15-minute timeout. Use Lambda for event-driven, intermittent workloads; EC2 for persistent, complex applications requiring more control.",
+      "concept": "ec2",
+      "tags": ["ec2", "lambda", "serverless", "compute"],
+      "weight": 1
+    },
+    {
+      "id": "q_aws_002",
+      "domain_id": "domain_cloud",
+      "technology_id": "tech_aws",
+      "difficulty": "medium",
+      "question": "What is AWS IAM and what are the key components: users, roles, policies, and groups?",
+      "options": [
+        "IAM is AWS's firewall service for network security",
+        "IAM (Identity and Access Management) controls who can access AWS resources. Users: permanent identities; Groups: collections of users; Roles: temporary credentials for services/cross-account; Policies: JSON documents defining permissions",
+        "IAM only manages human user access, not service-to-service communication",
+        "IAM roles are identical to IAM users with extra features"
+      ],
+      "correct_answer": "IAM (Identity and Access Management) controls who can access AWS resources. Users: permanent identities; Groups: collections of users; Roles: temporary credentials for services/cross-account; Policies: JSON documents defining permissions",
+      "explanation": "IAM implements the principle of least privilege. Users: permanent identities for humans with access keys or passwords. Groups: logical collection of users sharing policies (e.g., Developers group). Roles: assumed temporarily by AWS services (EC2 instance role, Lambda execution role) or cross-account access — no long-term credentials stored. Policies: JSON documents with Effect (Allow/Deny), Action (s3:GetObject), Resource (ARN). Best practices: never use root account, use roles for services, enable MFA, use managed policies.",
+      "concept": "iam",
+      "tags": ["iam", "security", "roles", "policies", "least_privilege"],
+      "weight": 2
+    },
+    {
+      "id": "q_aws_003",
+      "domain_id": "domain_cloud",
+      "technology_id": "tech_aws",
+      "difficulty": "hard",
+      "question": "What is a VPC in AWS and what is the difference between public and private subnets?",
+      "options": [
+        "VPC is AWS's CDN service; subnets are cache nodes",
+        "A VPC is an isolated virtual network in AWS; public subnets have a route to an Internet Gateway (internet accessible); private subnets have no direct internet route and use NAT Gateway for outbound traffic",
+        "All subnets in a VPC are automatically private",
+        "VPC is only needed for EC2, not for managed services like RDS"
+      ],
+      "correct_answer": "A VPC is an isolated virtual network in AWS; public subnets have a route to an Internet Gateway (internet accessible); private subnets have no direct internet route and use NAT Gateway for outbound traffic",
+      "explanation": "VPC (Virtual Private Cloud): your isolated network in AWS with custom IP ranges (CIDR), subnets, routing tables, and gateways. Public subnet: has a route (0.0.0.0/0 → Internet Gateway) — resources get public IPs and are internet accessible. Private subnet: no internet route — databases, application servers here for security. NAT Gateway in the public subnet allows private instances to make outbound internet calls (software updates, API calls) without being directly reachable. Security Groups (stateful) + NACLs (stateless) control traffic.",
+      "concept": "vpc",
+      "tags": ["vpc", "subnets", "nat_gateway", "network_security"],
+      "weight": 3
+    }
+  ],
+  "concepts": [
+    { "concept": "pointers", "technology": "C", "difficulty": "medium", "related_concepts": ["pointer_arithmetic", "memory_management", "arrays"], "importance": "critical" },
+    { "concept": "memory_management", "technology": "C", "difficulty": "hard", "related_concepts": ["malloc", "free", "stack", "heap"], "importance": "critical" },
+    { "concept": "preprocessor", "technology": "C", "difficulty": "easy", "related_concepts": ["macros", "header_guards", "include"], "importance": "medium" },
+    { "concept": "raii", "technology": "C++", "difficulty": "medium", "related_concepts": ["smart_pointers", "destructors", "exception_safety"], "importance": "critical" },
+    { "concept": "move_semantics", "technology": "C++", "difficulty": "hard", "related_concepts": ["rvalue_references", "copy_elision", "perfect_forwarding"], "importance": "high" },
+    { "concept": "templates", "technology": "C++", "difficulty": "hard", "related_concepts": ["generic_programming", "template_specialization", "sfinae"], "importance": "high" },
+    { "concept": "stl", "technology": "C++", "difficulty": "medium", "related_concepts": ["iterators", "algorithms", "containers"], "importance": "high" },
+    { "concept": "virtual_functions", "technology": "C++", "difficulty": "medium", "related_concepts": ["vtable", "polymorphism", "abstract_classes"], "importance": "high" },
+    { "concept": "jvm", "technology": "Java", "difficulty": "hard", "related_concepts": ["garbage_collection", "class_loading", "jit_compilation"], "importance": "critical" },
+    { "concept": "multithreading", "technology": "Java", "difficulty": "hard", "related_concepts": ["synchronized", "locks", "thread_pools", "concurrent_collections"], "importance": "critical" },
+    { "concept": "generics", "technology": "Java", "difficulty": "medium", "related_concepts": ["type_erasure", "wildcards", "bounded_types"], "importance": "high" },
+    { "concept": "streams", "technology": "Java", "difficulty": "medium", "related_concepts": ["lambda", "functional_interfaces", "optional"], "importance": "high" },
+    { "concept": "collections", "technology": "Java", "difficulty": "medium", "related_concepts": ["list", "map", "set", "queue", "iterator"], "importance": "high" },
+    { "concept": "decorators", "technology": "Python", "difficulty": "medium", "related_concepts": ["higher_order_functions", "functools", "closures"], "importance": "high" },
+    { "concept": "generators", "technology": "Python", "difficulty": "medium", "related_concepts": ["yield", "iterators", "lazy_evaluation"], "importance": "high" },
+    { "concept": "async_programming", "technology": "Python", "difficulty": "hard", "related_concepts": ["asyncio", "coroutines", "event_loop"], "importance": "high" },
+    { "concept": "metaclasses", "technology": "Python", "difficulty": "hard", "related_concepts": ["type", "class_creation", "descriptors"], "importance": "medium" },
+    { "concept": "gil", "technology": "Python", "difficulty": "hard", "related_concepts": ["cpython", "multiprocessing", "thread_safety"], "importance": "medium" },
+    { "concept": "closures", "technology": "JavaScript", "difficulty": "medium", "related_concepts": ["scope", "lexical_environment", "module_pattern"], "importance": "critical" },
+    { "concept": "event_loop", "technology": "JavaScript", "difficulty": "hard", "related_concepts": ["microtasks", "macrotasks", "call_stack", "web_apis"], "importance": "critical" },
+    { "concept": "prototypes", "technology": "JavaScript", "difficulty": "hard", "related_concepts": ["prototype_chain", "inheritance", "object_create"], "importance": "high" },
+    { "concept": "async_await", "technology": "JavaScript", "difficulty": "medium", "related_concepts": ["promises", "microtasks", "error_handling"], "importance": "critical" },
+    { "concept": "hooks", "technology": "React", "difficulty": "medium", "related_concepts": ["useState", "useEffect", "useCallback", "useMemo", "useRef"], "importance": "critical" },
+    { "concept": "reconciliation", "technology": "React", "difficulty": "hard", "related_concepts": ["virtual_dom", "fiber", "keys", "diffing"], "importance": "high" },
+    { "concept": "context", "technology": "React", "difficulty": "medium", "related_concepts": ["provider", "consumer", "useContext"], "importance": "high" },
+    { "concept": "ssr", "technology": "Next.js", "difficulty": "medium", "related_concepts": ["ssg", "isr", "hydration", "streaming_ssr"], "importance": "critical" },
+    { "concept": "app_router", "technology": "Next.js", "difficulty": "hard", "related_concepts": ["server_components", "client_components", "layouts", "server_actions"], "importance": "critical" },
+    { "concept": "event_loop", "technology": "Node.js", "difficulty": "hard", "related_concepts": ["libuv", "phases", "microtasks", "thread_pool"], "importance": "critical" },
+    { "concept": "streams", "technology": "Node.js", "difficulty": "hard", "related_concepts": ["readable", "writable", "backpressure", "pipe"], "importance": "high" },
+    { "concept": "clustering", "technology": "Node.js", "difficulty": "medium", "related_concepts": ["worker_threads", "ipc", "load_balancing", "pm2"], "importance": "high" },
+    { "concept": "containers", "technology": "Docker", "difficulty": "easy", "related_concepts": ["images", "registry", "namespaces", "cgroups"], "importance": "critical" },
+    { "concept": "dockerfile", "technology": "Docker", "difficulty": "medium", "related_concepts": ["layers", "cache", "multi_stage", "base_image"], "importance": "critical" },
+    { "concept": "volumes", "technology": "Docker", "difficulty": "medium", "related_concepts": ["persistence", "bind_mounts", "tmpfs"], "importance": "high" },
+    { "concept": "overfitting", "technology": "Machine Learning", "difficulty": "medium", "related_concepts": ["regularization", "cross_validation", "bias_variance_tradeoff"], "importance": "critical" },
+    { "concept": "gradient_descent", "technology": "Machine Learning", "difficulty": "hard", "related_concepts": ["backpropagation", "learning_rate", "adam", "sgd"], "importance": "critical" },
+    { "concept": "cross_validation", "technology": "Machine Learning", "difficulty": "medium", "related_concepts": ["k_fold", "stratification", "model_selection"], "importance": "high" },
+    { "concept": "regularization", "technology": "Machine Learning", "difficulty": "hard", "related_concepts": ["l1", "l2", "dropout", "weight_decay"], "importance": "high" },
+    { "concept": "ec2", "technology": "AWS", "difficulty": "easy", "related_concepts": ["ami", "security_groups", "elastic_ip", "auto_scaling"], "importance": "critical" },
+    { "concept": "iam", "technology": "AWS", "difficulty": "medium", "related_concepts": ["roles", "policies", "sts", "least_privilege"], "importance": "critical" },
+    { "concept": "vpc", "technology": "AWS", "difficulty": "hard", "related_concepts": ["subnets", "route_tables", "security_groups", "nacl"], "importance": "high" }
+  ],
+  "roadmaps": [
+    {
+      "technology": "C",
+      "technology_id": "tech_c",
+      "roadmap": {
+        "week1": ["C Syntax & Data Types", "Variables & Operators", "Control Flow (if/for/while)", "Functions & Recursion"],
+        "week2": ["Arrays & Strings", "Pointers & Pointer Arithmetic", "Dynamic Memory (malloc/free)", "Structs & Unions"],
+        "week3": ["File I/O", "Preprocessor Directives & Macros", "Header Files & Compilation Units", "Bitwise Operations"],
+        "week4": ["Data Structures in C (Linked List, Stack, Queue)", "Algorithm Implementation", "Debugging with GDB", "Mini Project: CLI Application"]
+      }
+    },
+    {
+      "technology": "C++",
+      "technology_id": "tech_cpp",
+      "roadmap": {
+        "week1": ["C++ vs C Basics", "Classes & Objects", "Constructors/Destructors", "Access Specifiers"],
+        "week2": ["Inheritance & Polymorphism", "Virtual Functions & vtable", "Operator Overloading", "Templates"],
+        "week3": ["STL: vector, map, unordered_map, set", "Iterators & Algorithms", "RAII & Smart Pointers (unique_ptr, shared_ptr)", "Move Semantics & Rvalue References"],
+        "week4": ["Lambda Expressions", "Concurrency (std::thread, mutex)", "Modern C++17/20 Features", "Project: Design Pattern Implementation"]
+      }
+    },
+    {
+      "technology": "Java",
+      "technology_id": "tech_java",
+      "roadmap": {
+        "week1": ["Java Syntax & OOP Basics", "Classes, Inheritance, Interfaces", "Generics & Collections Framework", "Exception Handling"],
+        "week2": ["Java Memory Model & JVM Internals", "Multithreading & Concurrency", "Synchronized, Locks, Atomic", "Java Streams & Lambdas"],
+        "week3": ["Design Patterns (Singleton, Factory, Builder)", "JUnit Testing & TDD", "Maven/Gradle Build Tools", "Spring Boot Basics"],
+        "week4": ["REST API with Spring Boot", "JPA & Database Integration", "Microservices Concepts", "Project: RESTful Application"]
+      }
+    },
+    {
+      "technology": "Python",
+      "technology_id": "tech_python",
+      "roadmap": {
+        "week1": ["Python Syntax & Data Structures", "List Comprehensions & Generators", "Functions & Decorators", "File I/O & Modules"],
+        "week2": ["OOP in Python", "Context Managers & Metaclasses", "Regular Expressions", "Virtual Environments & pip"],
+        "week3": ["async/await & asyncio", "Web Scraping (requests, BeautifulSoup)", "Testing with pytest", "Type Hints & mypy"],
+        "week4": ["FastAPI or Django REST API", "Data Processing with pandas", "Packaging & Deployment", "Project: REST API or Data Pipeline"]
+      }
+    },
+    {
+      "technology": "JavaScript",
+      "technology_id": "tech_js",
+      "roadmap": {
+        "week1": ["JS Syntax, Data Types, Operators", "Scope, Hoisting, Closures", "Arrays & Objects (ES6+)", "Functions & Arrow Functions"],
+        "week2": ["DOM Manipulation & Events", "Async Programming: Callbacks, Promises", "async/await & Fetch API", "Error Handling"],
+        "week3": ["ES6+ Features (destructuring, spread, modules)", "Prototypal Inheritance & Classes", "Event Loop Deep Dive", "Browser Storage APIs"],
+        "week4": ["Module Bundlers (Webpack/Vite basics)", "Testing with Jest", "TypeScript Introduction", "Project: Interactive Web App"]
+      }
+    },
+    {
+      "technology": "HTML",
+      "technology_id": "tech_html",
+      "roadmap": {
+        "week1": ["HTML Document Structure", "Semantic HTML5 Elements", "Forms & Input Types", "Tables & Media Elements"],
+        "week2": ["Accessibility (ARIA, screen readers)", "SEO Fundamentals", "Meta Tags & Open Graph", "HTML Validation"],
+        "week3": ["Canvas API Basics", "Web Storage (localStorage, sessionStorage)", "Service Workers Introduction", "Progressive Web Apps Basics"],
+        "week4": ["HTML Performance Optimization", "Browser Dev Tools", "Cross-browser Compatibility", "Project: Accessible Landing Page"]
+      }
+    },
+    {
+      "technology": "CSS",
+      "technology_id": "tech_css",
+      "roadmap": {
+        "week1": ["CSS Selectors & Specificity", "Box Model & Display", "Flexbox Layout", "Grid Layout"],
+        "week2": ["Responsive Design & Media Queries", "CSS Variables (Custom Properties)", "Pseudo-classes & Pseudo-elements", "CSS Animations & Transitions"],
+        "week3": ["CSS Architecture (BEM, SMACSS)", "SASS/SCSS Preprocessor", "CSS-in-JS concepts", "Performance Optimization"],
+        "week4": ["Dark Mode Implementation", "Print Stylesheets", "CSS Houdini Introduction", "Project: Responsive Component Library"]
+      }
+    },
+    {
+      "technology": "React",
+      "technology_id": "tech_react",
+      "roadmap": {
+        "week1": ["JSX & Component Basics", "Props & Composition", "useState & Event Handling", "Conditional Rendering & Lists"],
+        "week2": ["useEffect & Side Effects", "Forms (Controlled/Uncontrolled)", "React Context API", "useReducer Pattern"],
+        "week3": ["useCallback, useMemo, React.memo", "Custom Hooks", "React Router v6", "Error Boundaries & Suspense"],
+        "week4": ["State Management (Zustand/Redux Toolkit)", "Performance Profiling", "Testing (React Testing Library)", "Project: Full Feature SPA"]
+      }
+    },
+    {
+      "technology": "Next.js",
+      "technology_id": "tech_nextjs",
+      "roadmap": {
+        "week1": ["Next.js Setup & File-Based Routing", "App Router vs Pages Router", "Server & Client Components", "Static Rendering & SSR"],
+        "week2": ["Data Fetching in App Router", "ISR & On-Demand Revalidation", "next/image & next/font", "Metadata API for SEO"],
+        "week3": ["Server Actions & Forms", "Next.js Middleware", "Authentication (NextAuth.js)", "API Routes & Edge Functions"],
+        "week4": ["Performance Optimization (Bundle Analysis)", "Deployment (Vercel/Docker)", "Testing Next.js Apps", "Project: Full Stack App"]
+      }
+    },
+    {
+      "technology": "Tailwind CSS",
+      "technology_id": "tech_tailwind",
+      "roadmap": {
+        "week1": ["Utility-First Philosophy", "Core Utilities (spacing, colors, typography)", "Responsive Prefixes (sm/md/lg/xl)", "Flexbox & Grid Utilities"],
+        "week2": ["Hover, Focus & State Variants", "Dark Mode Configuration", "Custom Theme (tailwind.config.js)", "JIT Mode Basics"],
+        "week3": ["Extracting Components with @apply", "Tailwind Plugins (Typography, Forms)", "Animation Utilities", "Accessibility with Tailwind"],
+        "week4": ["Purging Unused CSS (PurgeCSS)", "Tailwind + React Component Library", "Headless UI Integration", "Project: Design System"]
+      }
+    },
+    {
+      "technology": "Node.js",
+      "technology_id": "tech_nodejs",
+      "roadmap": {
+        "week1": ["Node.js Architecture & Event Loop", "Modules (CommonJS & ESM)", "File System & Path APIs", "Buffers & Streams"],
+        "week2": ["HTTP Module & Building a Server", "npm & Package Management", "Error Handling Patterns", "Environment Variables & Config"],
+        "week3": ["Express.js Framework", "Middleware & Routing", "Authentication (JWT, Sessions)", "Database Integration (MongoDB/PostgreSQL)"],
+        "week4": ["Cluster Module & Worker Threads", "Testing with Jest/Supertest", "Deployment & Process Management (PM2)", "Project: Production REST API"]
+      }
+    },
+    {
+      "technology": "Express.js",
+      "technology_id": "tech_express",
+      "roadmap": {
+        "week1": ["Express Setup & First Routes", "Middleware Concepts (use, next)", "Request & Response Objects", "Route Parameters & Query Strings"],
+        "week2": ["REST API Design Principles", "Error Handling Middleware", "CORS Configuration", "Request Validation (Joi/Zod)"],
+        "week3": ["Authentication (Passport.js / JWT)", "File Uploads (Multer)", "Rate Limiting & Security (Helmet)", "Connecting to MongoDB (Mongoose) or PostgreSQL"],
+        "week4": ["Testing with Jest & Supertest", "API Documentation (Swagger/OpenAPI)", "Logging & Monitoring (Winston, Morgan)", "Project: Complete REST API"]
+      }
+    },
+    {
+      "technology": "Django",
+      "technology_id": "tech_django",
+      "roadmap": {
+        "week1": ["Django Project Setup & MVT Pattern", "URL Routing & Views", "Models & ORM Basics", "Admin Interface"],
+        "week2": ["Forms & Validation", "Templates & Template Language", "User Authentication System", "Static & Media Files"],
+        "week3": ["Django REST Framework (DRF)", "Serializers & ViewSets", "Permissions & Authentication in DRF", "Filtering & Pagination"],
+        "week4": ["Celery & Async Tasks", "Caching with Redis", "Testing Django Apps", "Deployment (Docker + Gunicorn + Nginx)"]
+      }
+    },
+    {
+      "technology": "Spring Boot",
+      "technology_id": "tech_springboot",
+      "roadmap": {
+        "week1": ["Spring Boot Auto-Configuration", "Dependency Injection & IoC", "REST Controllers & Request Mapping", "Spring Data JPA & Repositories"],
+        "week2": ["Validation (Bean Validation)", "Exception Handling (@ControllerAdvice)", "Spring Security Basics", "JWT Authentication"],
+        "week3": ["Spring Boot Testing (MockMvc, @SpringBootTest)", "Actuator & Health Endpoints", "Caching with Spring Cache", "Async Methods & Scheduling"],
+        "week4": ["Microservices with Spring Cloud", "Service Discovery (Eureka)", "API Gateway (Spring Cloud Gateway)", "Project: Microservices Application"]
+      }
+    },
+    {
+      "technology": "Docker",
+      "technology_id": "tech_docker",
+      "roadmap": {
+        "week1": ["Docker Architecture & Concepts", "Pulling & Running Images", "Writing Dockerfiles", "Layer Caching & Build Optimization"],
+        "week2": ["Multi-Stage Builds", "Docker Volumes & Bind Mounts", "Docker Networking", "Environment Variables & Secrets"],
+        "week3": ["Docker Compose for Multi-Container Apps", "Health Checks & depends_on", "Docker Registry & Image Tagging", "Security Best Practices"],
+        "week4": ["Container Debugging & Logging", "Docker in CI/CD", "Introduction to Kubernetes", "Project: Containerize Full Stack App"]
+      }
+    },
+    {
+      "technology": "Kubernetes",
+      "technology_id": "tech_kubernetes",
+      "roadmap": {
+        "week1": ["Kubernetes Architecture (Control Plane, Nodes)", "Pods & Deployments", "Services & Networking", "ConfigMaps & Secrets"],
+        "week2": ["Persistent Volumes & Claims", "Ingress Controllers", "Namespaces & RBAC", "Resource Requests & Limits"],
+        "week3": ["Horizontal Pod Autoscaling", "Rolling Updates & Rollbacks", "Liveness & Readiness Probes", "Helm Charts"],
+        "week4": ["Kubernetes Monitoring (Prometheus/Grafana)", "CI/CD with Kubernetes", "Service Mesh (Istio Concepts)", "Project: Deploy Microservices to K8s"]
+      }
+    },
+    {
+      "technology": "AWS",
+      "technology_id": "tech_aws",
+      "roadmap": {
+        "week1": ["AWS Global Infrastructure", "IAM: Users, Roles, Policies", "EC2: Instances, Security Groups, AMIs", "S3: Buckets, Policies, Versioning"],
+        "week2": ["VPC: Subnets, Route Tables, NAT Gateway", "RDS & Aurora Basics", "Elastic Load Balancing", "Auto Scaling Groups"],
+        "week3": ["Lambda & API Gateway", "CloudFront CDN", "SQS & SNS Messaging", "CloudFormation & IaC"],
+        "week4": ["CloudWatch Monitoring & Alarms", "AWS Cost Optimization", "Security Best Practices", "Project: Deploy 3-Tier Application on AWS"]
+      }
+    },
+    {
+      "technology": "Machine Learning",
+      "technology_id": "tech_ml",
+      "roadmap": {
+        "week1": ["Math Foundations: Linear Algebra, Calculus, Probability", "Python for ML: NumPy, Pandas", "Supervised Learning Basics", "Linear & Logistic Regression"],
+        "week2": ["Decision Trees, Random Forests, Gradient Boosting", "Model Evaluation: Cross-validation, ROC-AUC, F1", "Feature Engineering & Selection", "Bias-Variance Tradeoff & Regularization"],
+        "week3": ["Unsupervised Learning: K-Means, PCA, DBSCAN", "Neural Networks Fundamentals", "Deep Learning with PyTorch/TensorFlow", "CNNs & RNNs"],
+        "week4": ["MLOps: Model Deployment (Flask/FastAPI)", "Model Monitoring & Drift Detection", "Hyperparameter Tuning (Optuna)", "Capstone: End-to-End ML Project"]
+      }
+    }
+  ]
+}
